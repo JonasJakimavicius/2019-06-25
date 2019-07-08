@@ -1,0 +1,14 @@
+/* Sukuriama paraštė viršuje Navbar aukščio, jog turinys nepasislėptų už Navbar'o */
+body {
+  margin-top: 56px;
+}
+
+.bg-black {
+  background: #000;
+}
+
+/* Sukuriamas virtualus paddingas, tam kad navbaras neužliptų ant sekcijos turinio */
+.link-fix {
+  padding-top: 56px;
+  margin-top: -56px;
+}

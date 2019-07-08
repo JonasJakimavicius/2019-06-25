@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Žilvinas - Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#badges">Badges</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#text">Text</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#spacing">Spacing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#input-groups">Input groups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#spinners">Spinners</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#jumbotron">Jumbotron</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#buttons">Buttons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#button-groups">Button groups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cards">Cards</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container link-fix" id="badges">
+    <!-- Dainora Badges -->
+
+    <h1>Badges (lietuviškai: ženkleliai)</h1>
+
+    <h3>Čia yra pavyzdys kaip ženklų (badges) skalė atitinka artimiausio pagrindinio elemento dydį. Naudojamas
+      santykinis
+      šrifto
+      dydis ir em
+      vienetai.</h3>
+
+    <h1>Example heading <span class="badge badge-primary">New</span></h1>
+    <h2>Example heading <span class="badge badge-warning">New</span></h2>
+    <h3>Example heading <span class="badge badge-danger">New</span></h3>
+    <h4>Example heading <span class="badge badge-success">New</span></h4>
+    <h5>Example heading <span class="badge badge-dark">New</span></h5>
+    <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+
+
+
+    <h3> Ženklai (badges) gali būti naudojami kaip nuorodų ar mygtukų dalis, kad būtų galima pateikti informaciją:
+      paskelbimus,
+      pastebėjimus, pranešimus.</h3>
+
+
+    <button type="button" class="btn btn-primary">
+      Informacija <span class="badge badge-light">4</span>
+    </button>
+
+    <br>
+    <br>
+    <h3>Ženklai (badges) gali būti kaip papildomi žodžiai ar numeriai sakinio, nuorodos ar mygtuko pabaigoje.</h3>
+
+    <h4>Tai kaip papildomas kontekstas su vizualiai paslėptu papildomu tekstu: papildoma informacija žmonėms su regos
+      negalia.</h4>
+
+    <button type="button" class="btn btn-primary">
+      Apibūdinimas <span class="badge badge-light">9</span>
+      <span class="sr-only">unread messages</span>
+    </button>
+
+
+
+    <h1> Kokie gali būti ženklelių (badges) variantai</h1>
+
+    <span class="badge badge-primary">Primary</span>
+    <span class="badge badge-secondary">Secondary</span>
+    <span class="badge badge-success">Success</span>
+    <span class="badge badge-danger">Danger</span>
+    <span class="badge badge-warning">Warning</span>
+    <span class="badge badge-info">Info</span>
+    <span class="badge badge-light">Light</span>
+    <span class="badge badge-dark">Dark</span>
+
+    <h3>pill ženkleliai (badges)</h3>
+    <h2>pill lietuviškai: rutuliukai (piliulės :) )</h2>
+    <h2>Naudojame modifikuotą klasę <strong> .badge-pill</strong>, norėdami užapvalinti ženkliuko formą.</h2>
+
+    <span class="badge badge-pill badge-primary">Primary</span>
+    <span class="badge badge-pill badge-secondary">Secondary</span>
+    <span class="badge badge-pill badge-success">Success</span>
+    <span class="badge badge-pill badge-danger">Danger</span>
+    <span class="badge badge-pill badge-warning">Warning</span>
+    <span class="badge badge-pill badge-info">Info</span>
+    <span class="badge badge-pill badge-light">Light</span>
+    <span class="badge badge-pill badge-dark">Dark</span>
+
+
+    <h2>Naudojant <strong> &#8249;a&#8250; </strong> elemento kontekstines <strong>.badge- * </strong>klases, ženkleliai
+      pateikiami su hover (užsklanda) ir focus (kai paspaudžiam ant ko nors-pasirenkame) būsenomis.</h2>
+
+    <a href="#" class="badge-primary badge-pill btn btn-primary">Primary</a>
+    <a href="#" class="badge badge-secondary">Secondary</a>
+    <a href="#" class="badge badge-success">Success</a>
+    <a href="#" class="badge badge-danger">Danger</a>
+    <a href="#" class="badge badge-warning">Warning</a>
+    <a href="#" class="badge badge-info">Info</a>
+    <a href="#" class="badge badge-light">Light</a>
+    <a href="#" class="badge badge-dark">Dark</a>
+    <hr>
+  </section>
+  <hr>
+
+  <!-- Valerijus Teksto savybės -->
+  <section class="container link-fix" id="text">
+    <h1>Teksto išlygiavimas</h1>
+    <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum.
+      Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc
+      posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis
+      iudicium purus sit amet fermentum.</p>
+
+    <p class="text-left">Kairėje išlygintas tekstas visiems ekrano didžiams.</p>
+    <p class="text-center">Centre išlygintas tekstas visiems ekrano didžiams.</p>
+    <p class="text-right">Dešinėje išlygintas tekstas visiems ekrano didžiams.</p>
+
+    <p class="text-sm-left text-md-center text-lg-right">Kairėje išlygintas tekstas ekranui SM dydžio (mažas) arba
+      didesnio.</p>
+    <p class="text-md-left">Kairėje išlygintas tekstas ekranui MD didžio (vidutinis) arba didesnio.</p>
+    <p class="text-lg-left">Kairėje išlygintas tekstas ekranui LG didžio (didelis) arba didesnio.</p>
+    <p class="text-xl-left">Kairėje išlygintas tekstas ekranui XL didžio (ypač didelis) arba didesnio.</p>
+
+
+    <h1>.text-wrap klasė</h1>
+    <div class="badge badge-primary text-wrap" style="width: 6rem;">
+      Šitas tekstas ne turetu išlisti teviško elemento ribos.
+    </div>
+
+    <h1>.text-nowrap klasė</h1>
+    <div class="text-nowrap bd-highlight bg-info" style="width: 8rem;">
+      Šitas tekstas turetu išlisti už teviško elemento ribos.
+    </div>
+
+    <h3>Ilgesniam tekstui galima naudoti .text-truncate klasė kad sutrumpinti teksta kuris netelpa. Reikalauja
+      display: inline-block arba display: block.</h3>
+
+    <!-- Block level -->
+    <div class="row">
+      <div class="col-4 text-truncate">
+        Praeterea iter est quasdam res quas ex communi.
+      </div>
+    </div>
+
+    <!-- Inline level -->
+    <span class="d-inline-block text-truncate" style="max-width: 150px;">
+      Praeterea iter est quasdam res quas ex communi.
+    </span>
+
+    <h1>Teksto transformavimas</h1>
+    <p class="text-lowercase">Tekstas mažom raidėm.</p>
+    <p class="text-uppercase">Tekstas didelem raidėm.</p>
+    <p class="text-capitalize">Tekstas skirtingom raidėm.</p>
+
+    <h1>Storas tekstas ir kursivas</h1>
+    <p class="font-weight-bold">Storas tekstas.</p>
+    <p class="font-weight-normal">Normalus tekstas.</p>
+    <p class="font-weight-light">Lengvas tekstas.</p>
+    <p class="font-italic">Kursyvus tekstas.</p>
+
+
+    <h1>Monospace uždeda šriftą</h1>
+    <p class="text-monospace">This is in monospace</p>
+
+
+    <h1>Nusitrina teksto spalva</h1>
+    <p class="text-muted">
+      Muted text with a <a href="#" class="text-reset">reset link</a>.
+    </p>
+
+    <h1>Nutrina teksto dekoravimą</h1>
+    <a href="#" class="text-decoration-none">Non-underlined link</a>
+
+    <a href="#">Non-underlined link</a>
+    <hr>
+  </section>
+  <hr>
+
+  <!-- Jonas - spacing -->
+  <section class="container link-fix" id="spacing">
+
+    <h1 class="text-center"> MARGINS AND PADDINGS</h1>
+    <div>
+
+      <h2 class="text-secondary text-center"> The classes are named using the format <br> </i></strong> <br></h2>
+      <hr>
+      <h4 class="text-secondary text-center"> for <strong> xs</strong></i></strong></h4>
+      <h3 class="text-danger text-center"><strong><i>{property}{sides}-{size}</i></strong></h3>
+      <hr>
+      <h4 class="text-secondary text-center"> for <strong>sm, md, lg, and xl.</strong> </h4>
+      <h3 class="text-danger text-center"><strong><i>{property}{sides}-{breakpoint}-{size} </i></strong> </h3>
+      <hr>
+      <p>
+        <strong> Where <i>property</i> is one of: </strong><br>
+
+        <strong> m</strong> - for classes that set margin <br>
+
+        <strong> p</strong> - for classes that set padding <br>
+        <strong> Where <i> sides</i> is one of:</strong> <br>
+
+        <strong> t &uarr;</strong> - for classes that set margin-top or padding-top <br>
+        <strong> b &darr; </strong> - for classes that set margin-bottom or padding-bottom <br>
+        <strong> l &larr;</strong> - for classes that set margin-left or padding-left <br>
+        <strong> r &rarr;</strong> - for classes that set margin-right or padding-right <br>
+        <strong> x &harr;</strong> - for classes that set both *-left and *-right<br>
+        <strong> y &#x2195;</strong> - for classes that set both *-top and *-bottom <br>
+        <strong> blank &harr; &#x2195; </strong> - for classes that set a margin or padding on all 4 sides of the
+        element ; <br>
+        <strong> Where <i> size</i> is one of:</strong><br>
+        <strong>0 </strong>- for classes that eliminate the margin or padding by setting it to 0<br>
+        <strong>1 </strong>- (by default) for classes that set the margin or padding to $spacer * .25<br>
+        <strong>2 </strong>- (by default) for classes that set the margin or padding to $spacer * .5<br>
+        <strong>3 </strong>- (by default) for classes that set the margin or padding to $spacer<br>
+        <strong>4 </strong>- (by default) for classes that set the margin or padding to $spacer * 1.5<br>
+        <strong>5 </strong>- (by default) for classes that set the margin or padding to $spacer * 3<br>
+        <strong>auto </strong> - for classes that set the margin to auto<br>
+        <i> (You can add more sizes by adding entries to the $spacers Sass map variable.)</i>
+
+        <h3 class="text-center"> Negative margin </h3>
+        <p> The syntax is nearly the same as the default, positive margin utilities, but with the addition of <strong>
+            n</strong> before the requested size. </p>
+        <p class="text-center"> <strong>mt-n1</strong></p>
+
+      </p>
+
+
+      <h3 class="text-danger">$spacer: 1rem !default. </h3>
+
+
+      <div class="text-center">
+        <h3 class="p-3 text-primary">The demo of padding classes</h3>
+
+        <p class="p-5 bg-info text-warning">p-5 $spacer * 3</p>
+
+        <p class="p-4 bg-success text-warning">p-4 $spacer * 1.5</p>
+
+        <p class="p-3 bg-primary text-warning">p-3 $spacer</p>
+
+        <p class="p-2 bg-secondary text-warning">p-2 $spacer * .5</p>
+
+        <p class="p-1 bg-danger text-white">p-1 $spacer * .25</p>
+
+        <p class="p-0 bg-primary text-warning">p-0</p>
+
+
+      </div>
+      <div class="text-center">
+        <h3 class="m-3 text-primary">The demo of margin classes</h3>
+
+        <p class="m-5 bg-info text-warning">m-5 $spacer * 3</p>
+
+        <p class="m-4 bg-success text-warning">m-4 $spacer * 1.5</p>
+
+        <p class="m-3 bg-primary text-warning">m-3 $spacer</p>
+
+        <p class="m-2 bg-secondary text-warning">m-2 $spacer * .5</p>
+
+        <p class="m-1 bg-danger text-white">m-1 $spacer * .25</p>
+
+        <p class="m-0 bg-primary text-warning">m-0</p>
+        <p class="m-auto bg-primary text-warning" style="width:400px">m-auto</p>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <hr>
+
+  <!-- Ignas Činčikas - Input groups -->
+  <section class="container link-fix" id="input-groups">
+    <!-- -------------------------------------------------------- -->
+    <!--                       Input grupės                       -->
+    <!-- -------------------------------------------------------- -->
+    <h4>Input grupės leidžia paprastai pridėti teksto, mygtukų ar mygtukų grupių iš bet kurios
+      formos pusės.</h4>
+    <br>
+
+    <div class="input-group mb-4">
+      <!-- ---------------------- mb=margins ---------------------- -->
+      <div class="input-group-append">
+        <!-- --- Prepend - pridėti input grupė iš formos priekio ---- -->
+        <!-- ----- Append - pridėti input grupė iš formos galo ------ -->
+        <span class="input-group-text" id="basic-addon1">@</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+        aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+        aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <span class="input-group-text" id="basic-addon2">@example.com</span>
+      </div>
+    </div>
+
+    <label for="basic-url">Your vanity URL</label>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+      </div>
+      <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+    </div>
+
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">$</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+      <div class="input-group-append">
+        <span class="input-group-text">.00</span>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">With textarea</span>
+      </div>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+    </div>
+    <hr>
+
+    <h3>Input grupės "wrap" pasirinkimas</h3>
+    <!-- -------------------------------------------------------- -->
+    <!--       galioja visi display: flex 'wrap' pasirinkimai     -->
+    <!-- -------------------------------------------------------- -->
+    <div class="input-group flex-nowrap">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="addon-wrapping">@</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+        aria-describedby="addon-wrapping">
+    </div>
+    <hr>
+
+    <h3>Input grupės dydžiai</h3>
+    <!-- -------------------------------------------------------- -->
+    <!--                   Input grupės dydžiai                   -->
+    <!-- -------------------------------------------------------- -->
+    <!-- ------- inputGroup-sizing-* (sm, default ir lg) -------- -->
+    <div class="input-group input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Small</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+    </div>
+
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-default">
+    </div>
+
+    <div class="input-group input-group-lg">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    </div>
+    <hr>
+
+    <h3>Varnelių ir burbuliukų "dėžė"</h3>
+    <!-- -------------------------------------------------------- -->
+    <!--            Input grupės checkboxai ir radios             -->
+    <!-- -------------------------------------------------------- -->
+    <!-- ---- input type="checkbox" arba input type="radio" ----- -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <input type="checkbox" aria-label="Checkbox for following text input">
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with checkbox">
+    </div>
+
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <input type="radio" aria-label="Radio button for following text input">
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with radio button">
+    </div>
+    <hr>
+
+    <h3>Formų skirsniai</h3>
+    <!-- -------------------------------------------------------- -->
+    <!--                     Multiple inputs                      -->
+    <!-- -------------------------------------------------------- -->
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <span class="input-group-text">First and last name</span>
+      </div>
+      <input type="text" aria-label="First name" class="form-control">
+      <input type="text" aria-label="Last name" class="form-control">
+    </div>
+    <hr>
+
+    <h3>Kelios input grupės</h3>
+    <!-- -------------------------------------------------------- -->
+    <!--                     Multiple addons                      -->
+    <!-- -------------------------------------------------------- -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">$</span>
+        <span class="input-group-text">0.00</span>
+      </div>
+      <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+    </div>
+
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+      <div class="input-group-append">
+        <span class="input-group-text">$</span>
+        <span class="input-group-text">0.00</span>
+      </div>
+    </div>
+    <hr>
+
+    <h3>Input grupės mygtukai</h3>
+    <!-- -------------------------------------------------------- -->
+    <!--                      Button addons                       -->
+    <!-- -------------------------------------------------------- -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+      </div>
+      <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon"
+        aria-describedby="button-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+        aria-describedby="button-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <div class="input-group-prepend" id="button-addon3">
+        <button class="btn btn-outline-secondary" type="button">Button</button>
+        <button class="btn btn-outline-secondary" type="button">Button</button>
+      </div>
+      <input type="text" class="form-control" placeholder="" aria-label="Example text with two button addons"
+        aria-describedby="button-addon3">
+    </div>
+
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Recipient's username"
+        aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+      <div class="input-group-append" id="button-addon4">
+        <button class="btn btn-outline-secondary" type="button">Button</button>
+        <button class="btn btn-outline-secondary" type="button">Button</button>
+      </div>
+    </div>
+    <hr>
+
+    <h3>Input grupės mygtukai su "dropdown'u"</h3>
+    <!-- -------------------------------------------------------- -->
+    <!--                  Buttons with dropdowns                  -->
+    <!-- -------------------------------------------------------- -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Dropdown</button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with dropdown button">
+    </div>
+
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="Text input with dropdown button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Dropdown</button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <h3>Segmentuoti mygtukai</h3>
+    <!-- -------------------------------------------------------- -->
+    <!--                    Segmented buttons                     -->
+    <!-- -------------------------------------------------------- -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button type="button" class="btn btn-outline-secondary">Action</button>
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+    </div>
+
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+      <div class="input-group-append">
+        <button type="button" class="btn btn-outline-secondary">Action</button>
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <h3>Formų pasirinkimas</h3>
+    <!-- -------------------------------------------------------- -->
+    <!--                       Custom forms                       -->
+    <!-- -------------------------------------------------------- -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="inputGroupSelect01">Options</label>
+      </div>
+      <select class="custom-select" id="inputGroupSelect01">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+
+    <div class="input-group mb-3">
+      <select class="custom-select" id="inputGroupSelect02">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <div class="input-group-append">
+        <label class="input-group-text" for="inputGroupSelect02">Options</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary" type="button">Button</button>
+      </div>
+      <select class="custom-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+
+    <div class="input-group">
+      <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button">Button</button>
+      </div>
+    </div>
+    <hr>
+
+    <h3>Failų pridėjimo pasirinkimas</h3>
+    <!-- -------------------------------------------------------- -->
+    <!--                    Custom file input                     -->
+    <!-- -------------------------------------------------------- -->
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+      </div>
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="inputGroupFile02">
+        <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose
+          file</label>
+      </div>
+      <div class="input-group-append">
+        <span class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon03">Button</button>
+      </div>
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03">
+        <label class="custom-file-label" for="inputGroupFile03">Choose file</label>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+        <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+      </div>
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Button</button>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <hr>
+
+  <!-- Milda - spinners -->
+  <section class="container link-fix" id="spinners">
+    <h1><strong>SPINERIS </strong></h1>
+    <h3>naudojamas atvaizduoti objekto užsikrovimą</h3>
+    <h2>SPINERIO SIENELĖ</h2>
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+
+    <h2>SPINERIO SPALVOS</h2>
+    <p>Spinerio sienelė naudoja parametrą <strong>"currentColor"</strong>, kas suteikia galimybę panaudoti bet kurią
+      norimą spalvą.</p>
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-secondary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-success" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-danger" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-warning" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-info" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-light" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-dark" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+
+    <h2>AUGANTIS SPINERIS</h2>
+    <p>Jei jums nepatinka besisukantis spineris, naudokite augantį spinerį. Stebint atrodo, kad jis visalaiką auga.
+    </p>
+    <div class="spinner-grow" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+
+    <p>Jis taip pat naudoja savybę <strong>"currentColor"</strong> todel labai lengva keisti jo spalvas.</p>
+
+    <div class="spinner-grow text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-secondary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-success" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-danger" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-warning" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-info" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-light" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-dark" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <h2>IŠCENTARVIMAS</h2>
+    <p>Spineriams išcentruoti Bootstrap naudojama<strong> rem, currentColor ir display: inline-flex.</strong>Kas
+      susije
+      su tuo, kad juos lengva pakeisti, nuspalvinti ar patalpinti norimoje vietoje.</p>
+    <p>Atitraukimas nuo krašto</p>
+    <p>Atitraukimui nuo krašto naudojama <strong>.m-5</strong></p>
+    <div class="spinner-border m-5" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+
+    <h2>TALPINIMAS ERDVĖJE</h2>
+    <p>Kad spinerius talpinti ten kur jums norisi reiktu naudotis teksto išlyginimu, flexbox ir float įrankiais.</p>
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <p>Loading...</p>
+    <div class="d-flex align-items-center mr-5">
+      <strong>Loading...</strong>
+      <div class="spinner-border ml-auto" role="status" aria-hidden="true"></div>
+    </div>
+
+    <p>Floats</p>
+
+    <div class="clearfix mr-5">
+      <div class="spinner-border float-right" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <h2>TEKSTO IŠLYGIAVIMAS</h2>
+
+    <div class="text-center">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <h2>DYDIS</h2>
+    <p>Norint keisti dydi naudojamasi <strong>.spinner-border-sm</strong> ir <strong>.spinner-grow-sm</strong>
+    </p>
+
+    <div class="spinner-border spinner-border-sm" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow spinner-grow-sm" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+
+    <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+
+    <h2>MYGTUKAI</h2>
+
+    <button class="btn btn-primary" type="button" disabled>
+      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      <span class="sr-only">Loading...</span>
+    </button>
+    <button class="btn btn-primary" type="button" disabled>
+      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      Loading...
+    </button>
+
+    <button class="btn btn-primary" type="button" disabled>
+      <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+      <span class="sr-only">Loading...</span>
+    </button>
+    <button class="btn btn-primary" type="button" disabled>
+      <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+      Loading...
+    </button>
+    <hr>
+  </section>
+  <hr>
+
+  <!-- Kamilė Jumbatron -->
+
+  <section  class=" link-fix" id="jumbotron">
+    <div class="jumbotron">
+      <h1>Bootstrap Tutorial</h1>
+      <p>"Jumbotron“ yra didelis pilkos spalvos langelis, kurio tikslas atkreipti Jūsų dėmesį į tam tikrą turinį ar
+        informaciją </p>
+      <p> „Jumbotron“ viduje galite įdėti beveik bet kokį galiojantį HTML kodą, įskaitant „Bootstrap“ elementus ir
+        klases </p>
+      <!-- naudojame elementą <div> su klase .jumbotron  -->
+    </div>
+    <p>This is some text.</p>
+    <p>This is another text.</p>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1>Bootstrap Tutorial</h1>
+        <p>Pilno ilgio jumbotron'o juosta (ne langelis)
+          <!-- klasė .jumbotron-fluid su jam priklausančiomis klasėmis: .container ar .container-fluid -->
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>This is some text.</p>
+      <p>This is another text.</p>
+    </div>
+
+    <h1> Jumbotron with a background image</h1>
+
+    <div class="jumbotron card card-image"
+      style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+      <div class="text-white text-center py-5 px-4">
+        <div>
+          <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Create your beautiful website with
+              MDBootstrap</strong></h2>
+          <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam,
+            voluptatem,
+            optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui,
+            dolorum!
+          </p>
+          <a class="btn btn-outline-white btn-md"><i class="fas fa-clone left"></i> View project</a>
+        </div>
+      </div>
+    </div>
+
+    <h1> Jumbotron with image</h1>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+
+      <!-- Title -->
+      <h4 class="card-title h4 pb-2"><strong>My adventure</strong></h4>
+
+      <!-- Card image -->
+      <div class="view overlay my-4">
+        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" class="img-fluid" alt="">
+        <a href="#">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <h5 class="indigo-text h5 mb-4">Photography</h5>
+
+      <p class="card-text">Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium,
+        totam rem aperiam.</p>
+
+      <!-- Linkedin -->
+      <a class="fa-lg p-2 m-2 li-ic"><i class="fab fa-linkedin-in grey-text"></i></a>
+      <!-- Twitter -->
+      <a class="fa-lg p-2 m-2 tw-ic"><i class="fab fa-twitter grey-text"></i></a>
+      <!-- Dribbble -->
+      <a class="fa-lg p-2 m-2 fb-ic"><i class="fab fa-facebook-f grey-text"></i></a>
+
+    </div>
+    <!-- Jumbotron -->
+
+    <h1> Jumbotron without padding</h1>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron p-0">
+
+      <!-- Card image -->
+      <div class="view overlay rounded-top">
+        <img src="https://mdbootstrap.com/img/Photos/Slides/img%20(134).jpg" class="img-fluid" alt="Sample image">
+        <a href="#">
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+
+      <!-- Card content -->
+      <div class="card-body text-center mb-3">
+
+        <!-- Title -->
+        <h3 class="card-title h3 my-4"><strong>Card title</strong></h3>
+        <!-- Text -->
+        <p class="card-text py-2">Some quick example text to build on the card title and make up the bulk of the card's
+        </p>
+        <!-- Button -->
+        <a href="#" class="btn purple-gradient btn-rounded mb-4">Button</a>
+
+      </div>
+
+    </div>
+    <!-- Jumbotron -->
+
+
+
+    <h1> Jumbotron with buttons</h1>
+
+
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+
+      <!-- Title -->
+      <h2 class="card-title h2">Material Design for Bootstrap</h2>
+      <!-- Subtitle -->
+      <p class="blue-text my-4 font-weight-bold">Powerful and free Material Design UI KIT</p>
+
+      <!-- Grid row -->
+      <div class="row d-flex justify-content-center">
+
+        <!-- Grid column -->
+        <div class="col-xl-7 pb-2">
+
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aliquid dolorem ea
+            distinctio exercitationem delectus qui, quas eum architecto, amet quasi accusantium, fugit consequatur
+            ducimus obcaecati numquam molestias hic itaque accusantium doloremque laudantium, totam rem aperiam.</p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+      <hr class="my-4">
+
+      <div class="pt-2">
+        <button type="button" class="btn btn-blue waves-effect">Buy now <span class="far fa-gem ml-1"></span></button>
+        <button type="button" class="btn btn-outline-primary waves-effect">Download <i
+            class="fas fa-download ml-1"></i></button>
+      </div>
+
+    </div>
+    <!-- Jumbotron -->
+
+
+    <h1> Jumbotron with image overlay</h1>
+
+
+    <!-- Jumbotron -->
+    <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/forest2.jpg);">
+      <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+        <div class="py-5">
+
+          <!-- Content -->
+          <h5 class="h5 orange-text"><i class="fas fa-camera-retro"></i> Photography</h5>
+          <h2 class="card-title h2 my-4 py-2">Jumbotron with image overlay</h2>
+          <p class="mb-4 pb-2 px-md-5 mx-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+            obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui quidem minima debitis
+            perferendis vitae cumque et quo impedit.</p>
+          <a class="btn peach-gradient"><i class="fas fa-clone left"></i> View project</a>
+
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <h1> Light background</h1>
+
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center blue-grey lighten-5">
+
+      <!-- Title -->
+      <h2 class="card-title h2">Material Design for Bootstrap</h2>
+
+      <!-- Subtitle -->
+      <p class="indigo-text my-4 font-weight-bold">Powerful and free Material Design UI KIT</p>
+
+      <!-- Grid row -->
+      <div class="row d-flex justify-content-center">
+
+        <!-- Grid column -->
+        <div class="col-xl-7 pb-2">
+
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aliquid dolorem ea
+            distinctio exercitationem delectus qui, quas eum architecto, amet quasi accusantium, fugit consequatur
+            ducimus obcaecati numquam molestias hic itaque accusantium doloremque laudantium, totam rem aperiam.</p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+      <hr class="my-4 pb-2">
+
+      <button class="btn blue-gradient btn-rounded">Buy now <i class="far fa-gem ml-1"></i></button>
+      <button class="btn btn-indigo btn-rounded">Download <i class="fas fa-download ml-1"></i></button>
+
+    </div>
+    <!-- Jumbotron -->
+
+
+
+    <h1> Jumbotron with news post</h1>
+
+
+    <!-- News jumbotron -->
+    <div class="jumbotron text-center hoverable p-4">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 offset-md-1 mx-3 my-3">
+
+          <!-- Featured image -->
+          <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid"
+              alt="Sample image for first version of blog listing">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-7 text-md-left ml-3 mt-3">
+
+          <!-- Excerpt -->
+          <a href="#!" class="green-text">
+            <h6 class="h6 pb-1"><i class="fas fa-desktop pr-1"></i> Work</h6>
+          </a>
+
+          <h4 class="h4 mb-4">This is title of the news</h4>
+
+          <p class="font-weight-normal">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque, totam
+            rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+          <p class="font-weight-normal">by <a><strong>Carine Fox</strong></a>, 19/08/2016</p>
+
+          <a class="btn btn-success">Read more</a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div> <!-- News jumbotron -->
+  </section>
+  <hr>
+
+  <!-- Rasa - mygtukai -->
+  <section class="container link-fix" id="buttons">
+    <h1>Mygtukų savybės</h1>
+    <h3>Mygtukų dydžiai</h3>
+    <p>Didelis arba mažas. Pritaikius savybę .btn-lg arba btn-sm, gaunamas mygtuko dydis.</p>
+    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+    <button type="button" class="btn btn-primary btn-sm">Small button</button>
+    <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+
+    <p><b>Mygtukas per visą bloko plotį</b>. Pritaikius savybę .btn-block, mygtuko dydis užima visą bloko plotį. </p>
+    <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+
+    <hr>
+
+    <h3>Mygtukų aktyvavimas/atjungimas - mygtukų būsenos pakeitimo būdai</h3>
+    <p>Mygtuko activ ar disabled savybė. Pritaikius klasę .activ ir atributą aria-pressed="true", iš mygtuko spalvos
+      pasikeitimo
+      galima suprasti, ar mygtukas buvo paspaustas - t.y. ar buvo aplankyta nuoroda.</p>
+    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+    <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
+
+    <button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
+    <button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+
+    <hr>
+
+    <p>Mygtuko atjungimas (Button plugin). Pritaikius savybę .bisabled, mygtukas atvaizduojamas kaip neaktyvus. </p>
+    <a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Primary
+      link</a>
+    <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
+
+    <p><b>Mygtuko atjungimas/aktyvinimas (Toggle states)</b>. Pritaikius savybę aria-disabled="true", mygtukas
+      atvaizduojamas kaip aktyvus.
+    </p>
+    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+      Single toggle</button>
+
+    <hr>
+
+    <p> Mygtukas/varnelė, atjungimas (Checkbox and radio buttons). naudojant data-toggle="buttons"</p>
+    <div class="btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-secondary active">
+        <input type="checkbox" checked autocomplete="off"> Checked
+      </label>
+    </div>
+
+
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-secondary active">
+        <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+      </label>
+    </div>
+
+    <hr>
+
+    <h3>Metodai</h3>
+    <p> $().button('toggle') - suteikia mygtukui "activ" būseną.</p>
+    <p> $().button('dispose') - sunaikina "elemento mygtuką".</p>
+  </section>
+  <hr>
+
+  <!-- Sigitas - button groups -->
+  <section class="container link-fix" id="button-groups">
+
+    <h1>Button Groups || Mygtukų grupės</h1>
+    <h3>Keli mygtukai div'e.</h3>
+    <hr>
+    <div class="btn btn-secondary">1</div>
+    <div class="btn btn-secondary">2</div>
+    <div class="btn btn-secondary">3</div>
+    <hr>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-secondary">Left</button>
+      <button type="button" class="btn btn-secondary">Middle</button>
+      <button type="button" class="btn btn-secondary">Right</button>
+    </div>
+
+    <hr>
+    <h1>Dydis || Sizing</h1>
+    <hr>
+
+    <div class="btn-group btn-group-lg" role="group">
+      <button type="button" class="btn btn-secondary">Left</button>
+      <button type="button" class="btn btn-secondary">Middle</button>
+      <button type="button" class="btn btn-secondary">Right</button>
+    </div>
+
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-secondary">Left</button>
+      <button type="button" class="btn btn-secondary">Middle</button>
+      <button type="button" class="btn btn-secondary">Right</button>
+    </div>
+
+
+    <div class="btn-group btn-group-sm" role="group">
+      <button type="button" class="btn btn-secondary">Left</button>
+      <button type="button" class="btn btn-secondary">Middle</button>
+      <button type="button" class="btn btn-secondary">Right</button>
+    </div>
+
+    <hr>
+    <h1>Button toolbar</h1>
+    <h3>Toolbar - lt. įrankių juosta</h3>
+    <hr>
+
+    <div class="btn-toolbar" role="toolbar">
+      <div class="btn-group mr-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+        <button type="button" class="btn btn-secondary">3</button>
+        <button type="button" class="btn btn-secondary">4</button>
+      </div>
+      <div class="btn-group mr-2" role="group">
+        <button type="button" class="btn btn-secondary">5</button>
+        <button type="button" class="btn btn-secondary">6</button>
+        <button type="button" class="btn btn-secondary">7</button>
+      </div>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-secondary">8</button>
+      </div>
+    </div>
+
+    <hr>
+
+
+    <div class="btn-toolbar mb-3" role="toolbar">
+      <div class="btn-group mr-2" role="group">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+        <button type="button" class="btn btn-secondary">3</button>
+        <button type="button" class="btn btn-secondary">4</button>
+      </div>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text" id="btnGroupAddon">@</div>
+        </div>
+        <input type="text" class="form-control" placeholder="Input group example">
+      </div>
+    </div>
+
+    <div class="btn-toolbar justify-content-around" role="toolbar">
+      <div class="btn-group" role="group" aria-label="First group">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+        <button type="button" class="btn btn-secondary">3</button>
+        <button type="button" class="btn btn-secondary">4</button>
+      </div>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text" id="btnGroupAddon2">@</div>
+        </div>
+        <input type="text" class="form-control" placeholder="Input group example">
+      </div>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text" id="btnGroupAddon2">@</div>
+        </div>
+        <input type="text" class="form-control" placeholder="Input group example">
+      </div>
+    </div>
+  </section>
+  <hr>
+
+  <!-- Ignas Š. - cards -->
+  <section class="container link-fix" id="cards">
+
+    <h1>Kortelės|Cards</h1>
+    <br>
+
+    <div class="card" style="width: 18rem;">
+      <img src="doge.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <hr>
+    <br><br>
+
+    <div class="card" style="width: 18rem;">
+      <img src="doge.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Cute Doggo</li>
+        <li class="list-group-item">Angry Doggo</li>
+        <li class="list-group-item">Evil Doggo</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <h3>Header & Footer</h3>
+
+    <div class="card text-center">
+      <div class="card-header">
+        Čia yra Header
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="card-footer text-muted">
+        Čia yra Footer
+      </div>
+    </div>
+
+
+
+
+    <br><br><br>
+    <H3>Kortelės pločio nustatymas</H3>
+
+
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Button</a>
+      </div>
+    </div>
+
+
+    <div class="card w-25">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Button</a>
+      </div>
+    </div>
+
+    <br><br><br>
+    <h3>Teksto lygiavimas kortelėje</h3>
+
+
+    <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card text-right" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
