@@ -1,0 +1,122 @@
+.navbar {
+  height: 50px;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #484e46;
+  z-index: 2;
+  box-shadow: 
+  0 1px #000,
+  0 2px 4px #000; 
+}
+
+.logo {
+  position: relative;
+  top: -5px;
+  display: block;
+  float: right;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  width: 45px;
+  height: 40px;
+}
+
+.nav-links-container {
+  position: absolute;
+  top: 49px;
+  width: 100%;
+  height: 200px;
+  margin-left: -15px;
+  overflow: hidden;
+}
+
+.nav-links {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  top: -200px;
+  list-style: none;
+  padding: 0;
+  background: #484e46aa;
+  transition: all .3s ease-in-out;
+}
+
+.nav-links.show {
+  top: 0;
+}
+
+.nav-link {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+.nav-link:hover a {
+  color: #c69c69;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #b2a491;
+  text-shadow: 1px 1px 2px #000;
+  font-weight: bold; 
+}
+
+/*  Toogle btn start ------------------------------------------------------------------------------ */
+
+.btn-expand {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #b2a491;
+  border-radius: 6px;
+  transition: all .3s ease-in-out;
+}
+
+.btn-expand:hover {
+  border-color: #b2a491aa;
+}
+
+.btn-expand:before {
+  content: '';
+  display: block;
+  margin-top: 8px;
+  width: 16px;
+  margin-left: 6px;
+  border-top: 1px solid #b2a491;
+  transition: all .3s ease-in-out;
+}
+
+.btn-expand:hover:before {
+  border-color: #b2a491aa;
+}
+
+.btn-expand:after {
+  content: '';
+  display: block;
+  margin-top: 10px;
+  width: 16px;
+  margin-left: 6px;
+  border-top: 1px solid #b2a491;
+  transition: all .3s ease-in-out;
+}
+
+.btn-expand:hover:after {
+  border-color: #b2a491aa;
+}
+
+.crossed:before {
+  transform: rotate(45deg);
+  width: 25px;
+  margin-left: 2px;
+  margin-top: 14px;
+}
+
+.crossed:after {
+  transform: rotate(-45deg);
+  width: 25px;
+  margin-left: 2px;
+  margin-top: -1px;
+}
+
+/* Toggle btn end-------------------------------------------------------------------- */

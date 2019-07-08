@@ -1,0 +1,47 @@
+body {
+  font-family: 'Century Gothic';
+}
+
+.header-font {
+  font-family: 'Aver';
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 1px #484e46
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Aver';
+}
+
+.text-primary {
+  color: #51814b;
+}
+
+.text-secondary {
+  color: #c69c69;
+}
+
+.text-danger {
+  color: #ac4641;
+}
+
+.text-warning {
+  color: #eccf65;
+}
+
+.text-dark {
+  color: #484e46;
+}
+
+.text-light {
+  color: #b2a491;
+}
+
+.text-info {
+  color: #7c7a6b;
+}

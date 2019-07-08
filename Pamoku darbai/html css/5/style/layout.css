@@ -1,0 +1,21 @@
+.container {
+  padding: 0 30px;
+  width: 960px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.child-in-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 

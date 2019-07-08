@@ -1,0 +1,22 @@
+.img-dog {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.dog-1 {
+  background-image: url('../img/dog-1.jpg');
+}
+
+.dog-2 {
+  background-image: url('../img/dog-2.jpg');
+}
+
+.dog-3 {
+  background-image: url('../img/dog-3.jpg');
+}
+
+.dog-4 {
+  background-image: url('../img/dog-4.jpg');
+}

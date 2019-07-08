@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 0 30px;
+  width: 1140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.flag-container {
+  background: #eee;
+  display: inline-block;
+  height: 214px;
+  width: 324px;
+  padding: 15px;
+  margin: 30px 5px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 6px #333;
+}
+
+.flag-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.flag {
+  border: 1px solid #999;
+  display: inline-block;
+  height: 184px;
+  width: 324px;
+}
+
+.bg-yellow {
+  background: gold;
+}
+
+.bg-green {
+  background: green;
+}
+
+.bg-red {
+  background: red;
+}
+
+.h-3 {
+  height: calc(100% / 3);
+}
+
+.w-100p {
+  width: 100%;
+}
+/* Amerika */
+
+/* Amerika */

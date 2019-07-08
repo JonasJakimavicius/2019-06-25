@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>6 Diena</title>
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/layout.css">
+  <link rel="stylesheet" href="style/navigation.css">
+  <link rel="stylesheet" href="style/spacing.css">
+  <link rel="stylesheet" href="style/typography.css">
+  <link rel="stylesheet" href="style/float-section.css">
+</head>
+
+<body class="preload">
+  <nav class="navigation">
+    <div class="container">
+      <div class="nav-link-container">
+        <a href="#display">Elementų išstatymas</a>
+        <a href="#box-model">Atvaizdavimo modelis</a>
+        <a href="#font">Šriftas</a>
+        <a href="#links">Nuorodos</a>
+        <a href="#float">Elementų paslankumas</a>
+        <a href="#images">Nuotraukos</a>
+        <a href="#position">Pozicionavimas</a>
+      </div>
+    </div>
+  </nav>
+
+  <a href="#box-model" class="arrow-link">
+    <span class="arrow">&#8657;</span>
+  </a>
+
+  <section id="display">
+    <div class="container">
+      <h3>Display: block || Elementų atvaizdavimas aukštais</h3>
+      <p>Elementai kurių stiliaus savybės <b>display</b> reikšmė yra <b>block</b> užsirezervuoja visą tėvinio elemento
+        plotį, nepriklausomai nuo turinio.</p>
+      <div>Aukštas 1</div>
+      <div>Aukštas 2</div>
+      <div>Aukštas 3</div>
+      <hr>
+
+      <h3>Display: inline || Elementų atvaizdavimas raidžių rašymo tvarka</h3>
+      <p>Elementai kurių stiliaus savybės <b>display</b> reikšmė yra <b>inline</b> rikiuojami vienas paskui kitą. Iš
+        kairės
+        į dešinę, o jeigu netelpa perkeliami į kitą eilutę. <b>display: inline</b> elementai negali turėti didesnio ar
+        mažesnio aukščio negu jų turinys, nes jie yra traktuojami kaip simboliai. Taip pat jiems negalime
+        nustayti paraščių viršuje bei apačioje.
+        (<i>margin</i>). Iš esmės <b>display: inline</b> elementus naudojame tektiniam turinui.</p>
+      <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 1</span>
+      <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 2</span>
+      <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 3</span>
+      <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 4</span>
+      <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 5</span>
+      <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 6</span>
+      <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 7</span>
+      <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 8</span>
+      <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 9</span>
+      <hr>
+
+      <h3>Display: inline-block || Elementų atvaizdavimas aprašytais blokais paeiliui <i>&#x2192;&#x2193;</i></h3>
+      <p>Elementai kurių stiliaus savybės <b>display</b> reikšmė yra <b>inline-block</b> rikiuojami vienas paskui kitą.
+        Iš
+        kairės
+        į dešinę, o jeigu netelpa perkeliami į kitą eilutę. Šio atvaizdavimo elementai gali turėti apibrėžtą aukšti,
+        plotį,
+        paraštes ir kamšalą (<i>margin & padding</i>). Į kitą eilutę jie persikelia kaip nejudinami vienetai,
+        atvirkščiai
+        negu <b>display: inline</b> elementai.</p>
+      <span class="d-inline-block">Eilutės blokas 1</span>
+      <span class="d-inline-block">Eilutės blokas 2</span>
+      <span class="d-inline-block">Eilutės blokas 3</span>
+      <span class="d-inline-block">Eilutės blokas 4</span>
+      <span class="d-inline-block">Eilutės blokas 5</span>
+      <span class="d-inline-block">Eilutės blokas 6</span>
+      <span class="d-inline-block">Eilutės blokas 7</span>
+      <span class="d-inline-block">Eilutės blokas 8</span>
+      <span class="d-inline-block">Eilutės blokas 9</span>
+      <hr>
+      <h3>Display: flex || Lankstus elementų atvaizdavimas</h3>
+      <p>Tai atvaizdavimo būdas kuris visiškai perima <strong>pirmo lygmens vaikų</strong> atvaizdavimo savybes ir jas
+        valdo savo nuožiūra</p>
+      <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="blank">Daugiau informacijos</a>
+
+    </div>
+  </section>
+
+  <section id="box-model" class="link-compense">
+    <div class="container">
+      <h3>Box model || Komponentų užimamos vietos modelis</h3>
+      <p>Box modelis - tai komponentų užimamos vietos paskirstymas. Jį sudaro (<i>Iš vidaus į išorę</i>):
+        <b>content - turinys, padding - kamšalas, border - sienelė, margin - paraštė.</b></p>
+      <div class="box-model-example"></div>
+      <div class="box-model-example"></div>
+      <div class="box-model-example"></div>
+
+      <h4>Margin practice || Pratymos su paraštėmis</h4>
+      <div class="square"></div>
+      <div class="square m"></div>
+      <div class="square mx"></div>
+      <div class="square my"></div>
+      <div class="square mt mr"></div>
+      <div class="square mr mb"></div>
+      <div class="square mb ml"></div>
+      <div class="square ml mt"></div>
+      <div class="square mt"></div>
+      <div class="square mr"></div>
+      <div class="square mb"></div>
+      <div class="square ml"></div>
+      <div class="square mx mt"></div>
+      <div class="square mx mb"></div>
+      <div class="square my mr"></div>
+      <div class="square my ml"></div>
+      <h4>Padding practice || Pratymos su kamšalais</h4>
+      <div class="square"></div>
+      <div class="square p"></div>
+      <div class="square px"></div>
+      <div class="square py"></div>
+      <div class="square pt pr"></div>
+      <div class="square pr pb"></div>
+      <div class="square pb pl"></div>
+      <div class="square pl pt"></div>
+      <div class="square pt"></div>
+      <div class="square pr"></div>
+      <div class="square pb"></div>
+      <div class="square pl"></div>
+      <div class="square px pt"></div>
+      <div class="square px pb"></div>
+      <div class="square py pr"></div>
+      <div class="square py pl"></div>
+      <hr>
+    </div>
+  </section>
+
+  <section id="font" class="link-compense">
+    <div class="container">
+      <h3>Šriftas</h3>
+      <h4>Lygiavimas</h4>
+      <p>Šriftą galime lygiuoti pagal kairėje, dešinėje, viduryje ir sulyg abiem kraštais. Tam naudosime css
+        (<i>stiliaus
+          savybę</i>) <b>text-align: ...</b></p>
+      <h5>Dešinėje</h5>
+      <p class="text-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus blanditiis rerum mollitia
+        deserunt magni ab sit qui. Voluptatem accusamus magni officiis fugit dolore harum blanditiis ea facilis, aliquid
+        qui, ipsam vitae dicta voluptas corporis sunt corrupti iure vero! Excepturi autem ullam id totam alias.
+        Reprehenderit maxime adipisci, error nostrum nisi impedit harum culpa quos? Maiores impedit odit commodi, iste
+        repellendus non eum eos doloribus accusantium fugit harum reiciendis, quis amet ea in maxime? Praesentium quas,
+        cum
+        tempora maxime exercitationem ullam nesciunt expedita, facilis totam sapiente aspernatur quidem provident facere
+        voluptas recusandae corporis reprehenderit, ipsam doloremque! Veniam adipisci corrupti, quasi corporis dolorum
+        similique id quo vel fugit dolorem voluptatum odio doloremque vero dolores nulla perferendis aperiam, nesciunt
+        sed
+        laborum fuga. Voluptatibus molestias officiis dolores iure debitis vero, non porro eos perferendis facilis
+        facere?
+        Tempora rerum ut eligendi beatae molestias vero corrupti, repudiandae tenetur. Ducimus explicabo quos modi,
+        blanditiis numquam ipsa atque eum odio, animi debitis optio molestiae quo deleniti dolorem unde, maxime veniam
+        soluta ex. Libero architecto velit dicta at, molestias, exercitationem quam consequatur numquam id assumenda
+        corporis voluptas optio quos fuga provident consectetur nemo laudantium ipsum eveniet! Nemo, exercitationem
+        commodi
+        laborum libero praesentium tenetur molestiae explicabo magnam vitae architecto similique.</p>
+      <h5>Kairėje</h5>
+      <p class="text-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus blanditiis rerum mollitia
+        deserunt magni ab sit qui. Voluptatem accusamus magni officiis fugit dolore harum blanditiis ea facilis, aliquid
+        qui, ipsam vitae dicta voluptas corporis sunt corrupti iure vero! Excepturi autem ullam id totam alias.
+        Reprehenderit maxime adipisci, error nostrum nisi impedit harum culpa quos? Maiores impedit odit commodi, iste
+        repellendus non eum eos doloribus accusantium fugit harum reiciendis, quis amet ea in maxime? Praesentium quas,
+        cum
+        tempora maxime exercitationem ullam nesciunt expedita, facilis totam sapiente aspernatur quidem provident facere
+        voluptas recusandae corporis reprehenderit, ipsam doloremque! Veniam adipisci corrupti, quasi corporis dolorum
+        similique id quo vel fugit dolorem voluptatum odio doloremque vero dolores nulla perferendis aperiam, nesciunt
+        sed
+        laborum fuga. Voluptatibus molestias officiis dolores iure debitis vero, non porro eos perferendis facilis
+        facere?
+        Tempora rerum ut eligendi beatae molestias vero corrupti, repudiandae tenetur. Ducimus explicabo quos modi,
+        blanditiis numquam ipsa atque eum odio, animi debitis optio molestiae quo deleniti dolorem unde, maxime veniam
+        soluta ex. Libero architecto velit dicta at, molestias, exercitationem quam consequatur numquam id assumenda
+        corporis voluptas optio quos fuga provident consectetur nemo laudantium ipsum eveniet! Nemo, exercitationem
+        commodi
+        laborum libero praesentium tenetur molestiae explicabo magnam vitae architecto similique.</p>
+      <h5>Centre</h5>
+      <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus blanditiis rerum mollitia
+        deserunt magni ab sit qui. Voluptatem accusamus magni officiis fugit dolore harum blanditiis ea facilis, aliquid
+        qui, ipsam vitae dicta voluptas corporis sunt corrupti iure vero! Excepturi autem ullam id totam alias.
+        Reprehenderit maxime adipisci, error nostrum nisi impedit harum culpa quos? Maiores impedit odit commodi, iste
+        repellendus non eum eos doloribus accusantium fugit harum reiciendis, quis amet ea in maxime? Praesentium quas,
+        cum
+        tempora maxime exercitationem ullam nesciunt expedita, facilis totam sapiente aspernatur quidem provident facere
+        voluptas recusandae corporis reprehenderit, ipsam doloremque! Veniam adipisci corrupti, quasi corporis dolorum
+        similique id quo vel fugit dolorem voluptatum odio doloremque vero dolores nulla perferendis aperiam, nesciunt
+        sed
+        laborum fuga. Voluptatibus molestias officiis dolores iure debitis vero, non porro eos perferendis facilis
+        facere?
+        Tempora rerum ut eligendi beatae molestias vero corrupti, repudiandae tenetur. Ducimus explicabo quos modi,
+        blanditiis numquam ipsa atque eum odio, animi debitis optio molestiae quo deleniti dolorem unde, maxime veniam
+        soluta ex. Libero architecto velit dicta at, molestias, exercitationem quam consequatur numquam id assumenda
+        corporis voluptas optio quos fuga provident consectetur nemo laudantium ipsum eveniet! Nemo, exercitationem
+        commodi
+        laborum libero praesentium tenetur molestiae explicabo magnam vitae architecto similique.</p>
+      <h5>Sulyg abiem kraštais</h5>
+      <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus blanditiis rerum
+        mollitia
+        deserunt magni ab sit qui. Voluptatem accusamus magni officiis fugit dolore harum blanditiis ea facilis, aliquid
+        qui, ipsam vitae dicta voluptas corporis sunt corrupti iure vero! Excepturi autem ullam id totam alias.
+        Reprehenderit maxime adipisci, error nostrum nisi impedit harum culpa quos? Maiores impedit odit commodi, iste
+        repellendus non eum eos doloribus accusantium fugit harum reiciendis, quis amet ea in maxime? Praesentium quas,
+        cum
+        tempora maxime exercitationem ullam nesciunt expedita, facilis totam sapiente aspernatur quidem provident facere
+        voluptas recusandae corporis reprehenderit, ipsam doloremque! Veniam adipisci corrupti, quasi corporis dolorum
+        similique id quo vel fugit dolorem voluptatum odio doloremque vero dolores nulla perferendis aperiam, nesciunt
+        sed
+        laborum fuga. Voluptatibus molestias officiis dolores iure debitis vero, non porro eos perferendis facilis
+        facere?
+        Tempora rerum ut eligendi beatae molestias vero corrupti, repudiandae tenetur. Ducimus explicabo quos modi,
+        blanditiis numquam ipsa atque eum odio, animi debitis optio molestiae quo deleniti dolorem unde, maxime veniam
+        soluta ex. Libero architecto velit dicta at, molestias, exercitationem quam consequatur numquam id assumenda
+        corporis voluptas optio quos fuga provident consectetur nemo laudantium ipsum eveniet! Nemo, exercitationem
+        commodi
+        laborum libero praesentium tenetur molestiae explicabo magnam vitae architecto similique.</p>
+      <h4>Šrifto spalvos</h4>
+      <p>Šrifto spalvas galime uždėti naudodami css (<i>stiliaus</i>) savybę: <b>color: ...jūsų spalva...</b></p>
+      <p class="text-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+      <p class="text-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+      <p class="text-blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+      <p class="text-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+      <p class="text-purple">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+      <p class="text-orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+    </div>
+  </section>
+
+  <section id="links" class="link-compense">
+    <div class="container">
+      <h3>Nuorodos</h3>
+      <p>Nuoroda tai <strong>a</strong> html elementas, kurį paspaudus galime nueiti į kitą puslapį ar sekciją. Kelią į
+        kitą
+        puslapį privalome parašyti <strong>a</strong> tag'o atsidaryme, atribute <strong style="color: blue">
+          href</strong>.
+        O tekstą kurį matys vartotojas rašome <strong>a</strong> tag'o turinyje.
+      </p>
+      <a class="d-inline-block" href="http://www.google.lt">Google</a>
+      <a href="http://www.youtube.com">Youtube</a>
+      <p>Norint nuorodas atidaryti naujame skirtuke turime papildomai sukurti <strong>target="blank"</strong> atributą,
+        <strong>a</strong> atsidarančiame tag'e.</p>
+      <a href="https://codeacademy-a9t6794.slack.com/messages/CKHV5HDPC/" target="blank">Mūsų slack kanalas</a>
+      <a href="https://github.com/ZilvinasVidmantas/FS-2019-05-21" target="blank">Medžiagos repozitorija</a>
+      <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf" target="blank">VS Code
+        sutrumpinimai</a>
+      <hr>
+    </div>
+  </section>
+
+  <section id="float" class="link-compense">
+    <div class="container">
+      <h3>Float || Elementų paslankumas</h3>
+      <p><strong>Float</strong> (<em>Elementų paslankumas</em>) - tai CSS savybė, kuri galioja
+        <strong>display:block</strong> elementams.
+        Ši savybė pritraukia elementą arba prie kairės, arba prie dešinės pusės. Taip pat ši savybė galį įsiveržti į
+        kitų <strong>display:block</strong> elementų rezervuotą vietą, jeigu ji yra neišnaudota</p>
+      <div class="img-dog dog-1 float-left"></div>
+      <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo in accusamus esse
+        consequuntur, doloremque atque quam aliquam ratione ullam recusandae minima quibusdam debitis cupiditate odio
+        non illo eius expedita corrupti sint natus assumenda obcaecati suscipit eos. Voluptatem, explicabo impedit animi
+        voluptas dolorem maiores accusamus facere fugiat saepe, quae qui voluptates. Obcaecati adipisci, eligendi iure
+        dignissimos, expedita sint facere ullam libero laboriosam asperiores debitis. Consectetur, obcaecati et
+        reiciendis nemo delectus corporis quia exercitationem? Expedita doloribus dolorum voluptatem mollitia nam nisi
+        harum quisquam aliquam molestias voluptates voluptate perspiciatis corporis eveniet facilis numquam corrupti
+        officiis natus quibusdam alias, ipsa ut ducimus animi quaerat eum! Adipisci magnam dignissimos voluptatum
+        molestiae nemo numquam nobis, in accusamus fugiat, error nesciunt a modi cupiditate alias corrupti eos provident
+        ex repudiandae tenetur voluptas cum dolor! Atque, nisi similique tenetur totam sint iste, necessitatibus
+        voluptas, corporis distinctio aliquam fugit vitae sequi. Sed ex eum quo quibusdam veritatis id dignissimos
+        sapiente fugit quaerat modi dicta alias voluptatem atque maxime, mollitia velit beatae officia incidunt maiores.
+        Voluptatum quia minima mollitia, culpa animi ipsum dolor illum voluptas doloribus quas nihil sequi esse laborum.
+        Hic nesciunt cumque ratione optio quia perferendis harum minima laboriosam consequuntur quam impedit
+        perspiciatis autem, corporis distinctio facere ullam suscipit deleniti consequatur rerum. Exercitationem,
+        praesentium magnam facilis provident fugiat consectetur eum, quasi fugit mollitia est dolorum et necessitatibus
+        dignissimos corporis in, eius debitis doloribus similique? Id modi repudiandae tenetur aspernatur vel.
+        Voluptatibus dolorem ab doloribus corporis provident, consequuntur nemo aliquid. Id corrupti esse
+        exercitationem, odit cumque voluptatem impedit ut?</p>
+      <div class="clearfix"></div>
+      <div class="img-dog dog-2 float-right"></div>
+      <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo in accusamus esse
+        consequuntur, doloremque atque quam aliquam ratione ullam recusandae minima quibusdam debitis cupiditate odio
+        non illo eius expedita corrupti sint natus assumenda obcaecati suscipit eos. Voluptatem, explicabo impedit animi
+        voluptas dolorem maiores accusamus facere fugiat saepe, quae qui voluptates. Obcaecati adipisci, eligendi iure
+        dignissimos, expedita sint facere ullam libero laboriosam asperiores debitis. Consectetur, obcaecati et
+        reiciendis nemo delectus corporis quia exercitationem? Expedita doloribus dolorum voluptatem mollitia nam nisi
+        harum quisquam aliquam molestias voluptates voluptate perspiciatis corporis eveniet facilis numquam corrupti
+        officiis natus quibusdam alias, ipsa ut ducimus animi quaerat eum! Adipisci magnam dignissimos voluptatum
+        molestiae nemo numquam nobis, in accusamus fugiat, error nesciunt a modi cupiditate alias corrupti eos provident
+        ex repudiandae tenetur voluptas cum dolor! Atque, nisi similique tenetur totam sint iste, necessitatibus
+        voluptas, corporis distinctio aliquam fugit vitae sequi. Sed ex eum quo quibusdam veritatis id dignissimos
+        sapiente fugit quaerat modi dicta alias voluptatem atque maxime, mollitia velit beatae officia incidunt maiores.
+        Voluptatum quia minima mollitia, culpa animi ipsum dolor illum voluptas doloribus quas nihil sequi esse laborum.
+        Hic nesciunt cumque ratione optio quia perferendis harum minima laboriosam consequuntur quam impedit
+        perspiciatis autem, corporis distinctio facere ullam suscipit deleniti consequatur rerum. Exercitationem,
+        praesentium magnam facilis provident fugiat consectetur eum, quasi fugit mollitia est dolorum et necessitatibus
+        dignissimos corporis in, eius debitis doloribus similique? Id modi repudiandae tenetur aspernatur vel.
+        Voluptatibus dolorem ab doloribus corporis provident, consequuntur nemo aliquid. Id corrupti esse
+        exercitationem, odit cumque voluptatem impedit ut?</p>
+      <div class="clearfix"></div>
+      <div class="img-dog dog-3 float-left"></div>
+      <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo in accusamus esse
+        consequuntur, doloremque atque quam aliquam ratione ullam recusandae minima quibusdam debitis cupiditate odio
+        non illo eius expedita corrupti sint natus assumenda obcaecati suscipit eos. Voluptatem, explicabo impedit animi
+        voluptas dolorem maiores accusamus facere fugiat saepe, quae qui voluptates. Obcaecati adipisci, eligendi iure
+        dignissimos, expedita sint facere ullam libero laboriosam asperiores debitis. Consectetur, obcaecati et
+        reiciendis nemo delectus corporis quia exercitationem? Expedita doloribus dolorum voluptatem mollitia nam nisi
+        harum quisquam aliquam molestias voluptates voluptate perspiciatis corporis eveniet facilis numquam corrupti
+        officiis natus quibusdam alias, ipsa ut ducimus animi quaerat eum! Adipisci magnam dignissimos voluptatum
+        molestiae nemo numquam nobis, in accusamus fugiat, error nesciunt a modi cupiditate alias corrupti eos provident
+        ex repudiandae tenetur voluptas cum dolor! Atque, nisi similique tenetur totam sint iste, necessitatibus
+        voluptas, corporis distinctio aliquam fugit vitae sequi. Sed ex eum quo quibusdam veritatis id dignissimos
+        sapiente fugit quaerat modi dicta alias voluptatem atque maxime, mollitia velit beatae officia incidunt maiores.
+        Voluptatum quia minima mollitia, culpa animi ipsum dolor illum voluptas doloribus quas nihil sequi esse laborum.
+        Hic nesciunt cumque ratione optio quia perferendis harum minima laboriosam consequuntur quam impedit
+        perspiciatis autem, corporis distinctio facere ullam suscipit deleniti consequatur rerum. Exercitationem,
+        praesentium magnam facilis provident fugiat consectetur eum, quasi fugit mollitia est dolorum et necessitatibus
+        dignissimos corporis in, eius debitis doloribus similique? Id modi repudiandae tenetur aspernatur vel.
+        Voluptatibus dolorem ab doloribus corporis provident, consequuntur nemo aliquid. Id corrupti esse
+        exercitationem, odit cumque voluptatem impedit ut?</p>
+      <div class="clearfix"></div>
+      <div class="img-dog dog-4 float-right"></div>
+      <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo in accusamus esse
+        consequuntur, doloremque atque quam aliquam ratione ullam recusandae minima quibusdam debitis cupiditate odio
+        non illo eius expedita corrupti sint natus assumenda obcaecati suscipit eos. Voluptatem, explicabo impedit animi
+        voluptas dolorem maiores accusamus facere fugiat saepe, quae qui voluptates. Obcaecati adipisci, eligendi iure
+        dignissimos, expedita sint facere ullam libero laboriosam asperiores debitis. Consectetur, obcaecati et
+        reiciendis nemo delectus corporis quia exercitationem? Expedita doloribus dolorum voluptatem mollitia nam nisi
+        harum quisquam aliquam molestias voluptates voluptate perspiciatis corporis eveniet facilis numquam corrupti
+        officiis natus quibusdam alias, ipsa ut ducimus animi quaerat eum! Adipisci magnam dignissimos voluptatum
+        molestiae nemo numquam nobis, in accusamus fugiat, error nesciunt a modi cupiditate alias corrupti eos provident
+        ex repudiandae tenetur voluptas cum dolor! Atque, nisi similique tenetur totam sint iste, necessitatibus
+        voluptas, corporis distinctio aliquam fugit vitae sequi. Sed ex eum quo quibusdam veritatis id dignissimos
+        sapiente fugit quaerat modi dicta alias voluptatem atque maxime, mollitia velit beatae officia incidunt maiores.
+        Voluptatum quia minima mollitia, culpa animi ipsum dolor illum voluptas doloribus quas nihil sequi esse laborum.
+        Hic nesciunt cumque ratione optio quia perferendis harum minima laboriosam consequuntur quam impedit
+        perspiciatis autem, corporis distinctio facere ullam suscipit deleniti consequatur rerum. Exercitationem,
+        praesentium magnam facilis provident fugiat consectetur eum, quasi fugit mollitia est dolorum et necessitatibus
+        dignissimos corporis in, eius debitis doloribus similique? Id modi repudiandae tenetur aspernatur vel.
+        Voluptatibus dolorem ab doloribus corporis provident, consequuntur nemo aliquid. Id corrupti esse
+        exercitationem, odit cumque voluptatem impedit ut?</p>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+
+  <section id="images" class="link-compense">
+    <div class="container">
+      <h3>Nuotraukos</h3>
+      <p>Nuotraukos gali būti įkeliamos 2 būdais: <strong>img</strong> tag'ų pagalba, arba kaip užsklandos nuotraukos.
+      </p>
+      <h4 class="my">Su &lt;img&gt; tag'u</h4>
+
+      <div class="float-left">
+        <h5 class="my text-center">Nustatome aukštį</h5>
+        <img src="img/dog-1.jpg" height="100px" alt="">
+      </div>
+
+      <div class="float-left">
+        <h5 class="my text-center">Nustatome plotį</h5>
+        <img src="img/dog-2.jpg" width="150px" alt="">
+      </div>
+
+      <div class="float-left">
+        <h5 class="my text-center">Nustatome abu dydžius</h5>
+        <img src="img/dog-3.jpg" height="100px" width="150px">
+      </div>
+
+      <div class="float-left">
+        <h5 class="my text-center">Nuotrauka iš interneto</h5>
+        <img
+          src="https://is3-ssl.mzstatic.com/image/thumb/Purple19/v4/44/d5/52/44d552f0-9ade-4714-652e-c0a9a6ef2ad7/pr_source.png/246x0w.jpg">
+      </div>
+
+      <div class="clearfix"></div>
+      <h4 class="my">Kaip užsklandos nuotraukos</h4>
+      <div class="test-cover"></div>
+    </div>
+  </section>
+
+  <section id="position" class="link-compense">
+    <div class="container">
+      <h3>Pozicionavimas</h3>
+      <h4>Static</h4>
+      <p>Tai toks pozicionavimo būdas, kuomet elementai pozicionuojami iš kairės į dešinę, o jeigu netelpa eilutėje yra
+        nukeliami į sekančią eilutę</p>
+      <hr>
+
+      <h4>Relative</h4>
+      <p>Tai pozicionavimas, kuomet <strong>top, left, bottom, right</strong> css savybės nurodo atsistūmimus nuo
+        elemento <strong>static</strong> pozicijos.</p>
+
+      <h4 class="d-inline-block text-purple my p-relative" style="left: 173px">left: 50px</h4><br>
+      <div class="d-inline-block circle"></div>
+      <div class="d-inline-block circle p-relative" style="left: 50px"></div>
+      <div class="d-inline-block circle"></div>
+      <hr>
+
+      <h4>Absolute</h4>
+      <p>Šį pozicionavimo tipą turintys elementai ieško pirmo, medžio hierarchijoje, tėvo linijoje sutikto <strong>NE
+          static</strong> elemento ir atsispiria nuo jo per nurodytus dydžius <strong>top, right, bottom, left</strong>.
+      </p>
+      <div class="p-relative block-lg child-in-center">
+        <div class="block-md child-in-center bg-grey">
+          <div class="circle p-absolute" style="right: 50px; bottom: 10px"></div>
+        </div>
+      </div>
+      <hr>
+
+      <h4>Fixed</h4>
+      <p>Atsispiria per nurodytus dydžius nuo <strong>viewport'o</strong></p>
+      <p>Žr header'į</p>
+      <hr>
+
+      <h4>Sticky</h4>
+      <p>Šį pozicionavimo tipą turintys elementai ieško pirmo, medžio hierarchijoje, tėvo linijoje sutikto <strong>NE
+          static</strong> elemento ir <strong>tėvo elementui slenkant</strong> atsispiria nuo jo per nurodytus dydžius
+        <strong>top, right, bottom, left</p>
+
+      <div class="block-lg p-relative" style="overflow: auto">
+        <div class="bg-lightblue">
+          <h3>1</h3>
+          <div class="circle p-sticky" style="top: 0"></div>
+          <h3>2</h3>
+          <h3>3</h3>
+          <div class="circle p-sticky" style="top: 80px"></div>
+          <h3>4</h3>
+          <h3>5</h3>
+          <div class="circle p-sticky" style="top: 160px"></div>
+          <h3>6</h3>
+          <h3>7</h3>
+          <h3>8</h3>
+          <h3>9</h3>
+          <h3>10</h3>
+          <h3>11</h3>
+          <h3>12</h3>
+          <h3>13</h3>
+          <h3>14</h3>
+          <h3>15</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    window.addEventListener('load', function () {
+      document.body.classList.remove("preload");
+    });
+  </script>
+</body>
+
+</html>

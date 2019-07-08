@@ -1,0 +1,33 @@
+﻿WINDOWS KOMANDOS ----------------------------------------------------
+    CTRL + C                        - Kopijuoti
+    CTRL + X                        - Iškirpti
+    CTRL + V                        - Įklijuoti
+    CTRL + Z                        - Grąžint atgal
+    CTRL + Y                        - Grąžint į priekį
+    CTRL + A                        - Pažymi viską
+    CTRL + S                        - Išsaugoti
+    CTRL + F                        - Ieškoti                  
+    ALT  + TAB                      - Pakeičia langą
+    F11                             - Išdidina ekraną
+    SHIFT + (rodyklės)              - Pažymi tai, kur juda žymeklis
+    ALT + SHIFT                     - Keičia klaviatūros kalbą      
+    ALT ( dešinį) + simbolis        - Laikant ALT klavišą gauname simbolį iš pagrindinės klaviatūros
+NARŠYKLĖS KOMANDOS --------------------------------------------------
+    F5                              - Perkrauti puslapį, naršyklėje
+    CTRL + F5                       - Perkrauna puslapį ir papildomai
+    F11                             - Išdidina langą
+    F12                             - Programuotojo lango atidarymas
+VISUAL STUDIO CODE KOMANDOS -----------------------------------------------
+    CTRL + /                        - Užkomentuoja/Atkomentuoja
+    CTRL + SPACE                    - Duoda pasirinkimą
+    CTRL + ENTER                    - Nukelia žymeklį į naują eilutę po apačią esamosios
+    CTRL + SHIFT + L                - Pasirenka visus sutapimus su pažymėtu tekstu
+    CTRL + ALT + (rodyklė)          - daugybinis žymėjimas
+    CTRL + TAB                      - įjungia praeitą failą
+    ALT + mouse-click               - Keleto žymeklių kūrimas
+    ALT + SHIFT + F                 - automatiškai suformatuoja tekstą
+    ALT + arrow (up || down)        - eilutės perstumimas (viršun || žemyn)
+    CTRL + K (atleisti viską) + S   - išsaugo VISUS failus
+    DIBARNT SU PHP ĮSKIEPIAIS       - CTRL + SHIFT + X
+        ALT + SHIFT + F             - automatiškai suformatuoja PHP
+        ALT + CTRL + F              - automatiškai suformatuoja HTML

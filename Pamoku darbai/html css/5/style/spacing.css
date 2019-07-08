@@ -1,0 +1,81 @@
+.m {
+  margin: 10px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.mr {
+  margin-right: 10px;
+}
+
+.mb {
+  margin-bottom: 10px;
+}
+
+.ml {
+  margin-left: 10px;
+}
+
+.mx {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.my {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.p {
+  padding: 10px;
+}
+
+.pt {
+  padding-top: 10px;
+}
+
+.pr {
+  padding-right: 10px;
+}
+
+.pb {
+  padding-bottom: 10px;
+}
+
+.pl {
+  padding-left: 10px;
+}
+
+.px {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.py {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+  width: 100%;
+}

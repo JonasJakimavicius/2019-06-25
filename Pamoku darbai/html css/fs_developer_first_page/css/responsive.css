@@ -1,0 +1,76 @@
+/* Small (md) */
+
+@media (min-width: 640px) {
+  /* Navrbar start ----------------------*/
+  .logo {
+    float: left;
+  }
+  .btn-expand {
+    display: none;
+  }
+  .container {
+    width: 640px;
+    margin: 0 auto;
+  }
+  .nav-links-container {
+    float: right;
+    width: initial;
+    position: static;
+    height: 30px;
+    margin-left: 0;
+  }
+  .nav-links {
+    position: static;
+  }
+  .nav-links.d-none {
+    display: block;
+  }
+  .nav-link {
+    font-size: .81rem;
+    margin-left: 10px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+  }
+  /* Navbar end -------------------------- */
+  /* Hero start -------------------------- */
+  #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-content {
+    position: relative;
+    top: 100px;
+    /* Jeigu norite nunulinti iš kitur parašytas reikšmes 
+    bottom: auto; 
+    left: auto;
+    right: auto; */
+    border-radius: 4px;
+    box-shadow: 6px 6px 8px #484e46, -6px 6px 8px #484e46;
+  }
+  .hero-logo {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    width: 65px;
+    height: 60px;
+  }
+  .hero-content.container {
+    margin: 0 auto;
+  }
+  /* Hero end ---------------------------- */
+  /* Subjects start ---------------------- */
+  .row {
+    flex-wrap: nowrap;
+  }
+  /* Subjects end ------------------------ */
+}
+
+/* Extra Large (xl) */
+
+@media (min-width: 1024px) {
+  /* ... */
+}

@@ -1,0 +1,7 @@
+.card {
+  display: block;
+  height: 200px;
+  padding: 20px;
+  border: 1px solid #aaa;
+  background: lightcoral; 
+}

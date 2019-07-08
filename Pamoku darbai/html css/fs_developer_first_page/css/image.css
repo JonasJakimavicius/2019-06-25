@@ -1,0 +1,42 @@
+#hero {
+  background-image: url('../img/hero.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-img-subject {
+  display: block;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transition: all .3s ease-in-out;
+  filter: brightness(0.85);
+}
+
+.bg-img-subject:hover{
+  filter: none;
+}
+
+.img-html {
+  background-image: url('../img/html.jpg');
+}
+
+.img-css {
+  background-image: url('../img/css.jpg');
+}
+
+.img-js {
+  background-image: url('../img/js.jpg');
+}
+
+.img-php {
+  background-image: url('../img/php.jpg');
+}
+
+.img-mvc {
+  background-image: url('../img/mvc.jpg');
+}
+
+.img-sql {
+  background-image: url('../img/sql.jpg');
+}

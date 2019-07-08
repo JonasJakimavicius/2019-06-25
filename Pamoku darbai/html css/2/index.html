@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>2 Pamoka</title>
+  <style>
+    div {
+      background: lightgreen;
+    }
+
+    span {
+      background: lightcoral;
+    }
+
+    .d-inline-block {
+      display: inline-block;
+      background: lightsalmon;
+      margin: 10px;
+      padding: 5px;
+      border: 1px solid black;
+    }
+
+    .box-model-example {
+      display: inline-block;
+      background: lightseagreen;
+      height: 50px;
+      width: 50px;
+      padding: 10px;
+      border: 2px solid #990000;
+      margin: 5px;
+    }
+
+    .m {
+      margin: 10px;
+    }
+
+    .mt {
+      margin-top: 10px;
+    }
+
+    .mr {
+      margin-right: 10px;
+    }
+
+    .mb {
+      margin-bottom: 10px;
+    }
+
+    .ml {
+      margin-left: 10px;
+    }
+
+    .mx {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .my {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .p {
+      padding: 10px;
+    }
+
+    .pt {
+      padding-top: 10px;
+    }
+
+    .pr {
+      padding-right: 10px;
+    }
+
+    .pb {
+      padding-bottom: 10px;
+    }
+
+    .pl {
+      padding-left: 10px;
+    }
+
+    .px {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    .py {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .square {
+      display: inline-block;
+      background: magenta;
+      width: 50px;
+      height: 50px;
+      border: 3px dashed cyan;
+    }
+
+    .text-right {
+      text-align: right;
+    }
+
+    .text-left {
+      text-align: left;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .text-justify {
+      text-align: justify;
+    }
+
+    .text-green {
+      color: green;
+    }
+
+    .text-red {
+      color: red;
+    }
+
+    .text-blue {
+      color: blue;
+    }
+
+    .text-yellow {
+      color: yellow;
+    }
+
+    .text-purple {
+      color: purple;
+    }
+
+    .text-orange {
+      color: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>Display: block || Elementų atvaizdavimas aukštais</h3>
+  <p>Elementai kurių stiliaus savybės <b>display</b> reikšmė yra <b>block</b> užsirezervuoja visą tėvinio elemento
+    plotį, nepriklausomai nuo turinio.</p>
+  <div>Aukštas 1</div>
+  <div>Aukštas 2</div>
+  <div>Aukštas 3</div>
+  <hr>
+
+  <h3>Display: inline || Elementų atvaizdavimas raidžių rašymo tvarka</h3>
+  <p>Elementai kurių stiliaus savybės <b>display</b> reikšmė yra <b>inline</b> rikiuojami vienas paskui kitą. Iš kairės
+    į dešinę, o jeigu netelpa perkeliami į kitą eilutę. <b>display: inline</b> elementai negali turėti didesnio ar
+    mažesnio aukščio negu jų turinys, nes jie yra traktuojami kaip simboliai. Taip pat jiems negalime
+    nustayti paraščių viršuje bei apačioje.
+    (<i>margin</i>). Iš esmės <b>display: inline</b> elementus naudojame tektiniam turinui.</p>
+  <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 1</span>
+  <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 2</span>
+  <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 3</span>
+  <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 4</span>
+  <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 5</span>
+  <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 6</span>
+  <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 7</span>
+  <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 8</span>
+  <span>LabaiLabaiLabaiLabaiIlgasŽodis || Dar vienas ilgas tekstas su tarpais 9</span>
+  <hr>
+
+  <h3>Display: inline-block || Elementų atvaizdavimas aprašytais blokais paeiliui <i>&#x2192;&#x2193;</i></h3>
+  <p>Elementai kurių stiliaus savybės <b>display</b> reikšmė yra <b>inline-block</b> rikiuojami vienas paskui kitą. Iš
+    kairės
+    į dešinę, o jeigu netelpa perkeliami į kitą eilutę. Šio atvaizdavimo elementai gali turėti apibrėžtą aukšti, plotį,
+    paraštes ir kamšalą (<i>margin & padding</i>). Į kitą eilutę jie persikelia kaip nejudinami vienetai, atvirkščiai
+    negu <b>display: inline</b> elementai.</p>
+  <span class="d-inline-block">Eilutės blokas 1</span>
+  <span class="d-inline-block">Eilutės blokas 2</span>
+  <span class="d-inline-block">Eilutės blokas 3</span>
+  <span class="d-inline-block">Eilutės blokas 4</span>
+  <span class="d-inline-block">Eilutės blokas 5</span>
+  <span class="d-inline-block">Eilutės blokas 6</span>
+  <span class="d-inline-block">Eilutės blokas 7</span>
+  <span class="d-inline-block">Eilutės blokas 8</span>
+  <span class="d-inline-block">Eilutės blokas 9</span>
+  <hr>
+
+  <h3>Box model || Komponentų užimamos vietos modelis</h3>
+  <p>Box modelis - tai komponentų užimamos vietos paskirstymas. Jį sudaro (<i>Iš vidaus į išorę</i>):
+    <b>content - turinys, padding - kamšalas, border - sienelė, margin - paraštė.</b></p>
+  <div class="box-model-example"></div>
+  <div class="box-model-example"></div>
+  <div class="box-model-example"></div>
+
+
+  <h4>Margin practice || Pratymos su paraštėmis</h4>
+  <div class="square"></div>
+  <div class="square m"></div>
+  <div class="square mx"></div>
+  <div class="square my"></div>
+  <div class="square mt mr"></div>
+  <div class="square mr mb"></div>
+  <div class="square mb ml"></div>
+  <div class="square ml mt"></div>
+  <div class="square mt"></div>
+  <div class="square mr"></div>
+  <div class="square mb"></div>
+  <div class="square ml"></div>
+  <div class="square mx mt"></div>
+  <div class="square mx mb"></div>
+  <div class="square my mr"></div>
+  <div class="square my ml"></div>
+  <h4>Padding practice || Pratymos su kamšalais</h4>
+  <div class="square"></div>
+  <div class="square p"></div>
+  <div class="square px"></div>
+  <div class="square py"></div>
+  <div class="square pt pr"></div>
+  <div class="square pr pb"></div>
+  <div class="square pb pl"></div>
+  <div class="square pl pt"></div>
+  <div class="square pt"></div>
+  <div class="square pr"></div>
+  <div class="square pb"></div>
+  <div class="square pl"></div>
+  <div class="square px pt"></div>
+  <div class="square px pb"></div>
+  <div class="square py pr"></div>
+  <div class="square py pl"></div>
+  <hr>
+  <h3>Šriftas</h3>
+  <h4>Lygiavimas</h4>
+  <p>Šriftą galime lygiuoti pagal kairėje, dešinėje, viduryje ir sulyg abiem kraštais. Tam naudosime css (<i>stiliaus
+      savybę</i>) <b>text-align: ...</b></p>
+  <h5>Dešinėje</h5>
+  <p class="text-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus blanditiis rerum mollitia
+    deserunt magni ab sit qui. Voluptatem accusamus magni officiis fugit dolore harum blanditiis ea facilis, aliquid
+    qui, ipsam vitae dicta voluptas corporis sunt corrupti iure vero! Excepturi autem ullam id totam alias.
+    Reprehenderit maxime adipisci, error nostrum nisi impedit harum culpa quos? Maiores impedit odit commodi, iste
+    repellendus non eum eos doloribus accusantium fugit harum reiciendis, quis amet ea in maxime? Praesentium quas, cum
+    tempora maxime exercitationem ullam nesciunt expedita, facilis totam sapiente aspernatur quidem provident facere
+    voluptas recusandae corporis reprehenderit, ipsam doloremque! Veniam adipisci corrupti, quasi corporis dolorum
+    similique id quo vel fugit dolorem voluptatum odio doloremque vero dolores nulla perferendis aperiam, nesciunt sed
+    laborum fuga. Voluptatibus molestias officiis dolores iure debitis vero, non porro eos perferendis facilis facere?
+    Tempora rerum ut eligendi beatae molestias vero corrupti, repudiandae tenetur. Ducimus explicabo quos modi,
+    blanditiis numquam ipsa atque eum odio, animi debitis optio molestiae quo deleniti dolorem unde, maxime veniam
+    soluta ex. Libero architecto velit dicta at, molestias, exercitationem quam consequatur numquam id assumenda
+    corporis voluptas optio quos fuga provident consectetur nemo laudantium ipsum eveniet! Nemo, exercitationem commodi
+    laborum libero praesentium tenetur molestiae explicabo magnam vitae architecto similique.</p>
+  <h5>Kairėje</h5>
+  <p class="text-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus blanditiis rerum mollitia
+    deserunt magni ab sit qui. Voluptatem accusamus magni officiis fugit dolore harum blanditiis ea facilis, aliquid
+    qui, ipsam vitae dicta voluptas corporis sunt corrupti iure vero! Excepturi autem ullam id totam alias.
+    Reprehenderit maxime adipisci, error nostrum nisi impedit harum culpa quos? Maiores impedit odit commodi, iste
+    repellendus non eum eos doloribus accusantium fugit harum reiciendis, quis amet ea in maxime? Praesentium quas, cum
+    tempora maxime exercitationem ullam nesciunt expedita, facilis totam sapiente aspernatur quidem provident facere
+    voluptas recusandae corporis reprehenderit, ipsam doloremque! Veniam adipisci corrupti, quasi corporis dolorum
+    similique id quo vel fugit dolorem voluptatum odio doloremque vero dolores nulla perferendis aperiam, nesciunt sed
+    laborum fuga. Voluptatibus molestias officiis dolores iure debitis vero, non porro eos perferendis facilis facere?
+    Tempora rerum ut eligendi beatae molestias vero corrupti, repudiandae tenetur. Ducimus explicabo quos modi,
+    blanditiis numquam ipsa atque eum odio, animi debitis optio molestiae quo deleniti dolorem unde, maxime veniam
+    soluta ex. Libero architecto velit dicta at, molestias, exercitationem quam consequatur numquam id assumenda
+    corporis voluptas optio quos fuga provident consectetur nemo laudantium ipsum eveniet! Nemo, exercitationem commodi
+    laborum libero praesentium tenetur molestiae explicabo magnam vitae architecto similique.</p>
+  <h5>Centre</h5>
+  <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus blanditiis rerum mollitia
+    deserunt magni ab sit qui. Voluptatem accusamus magni officiis fugit dolore harum blanditiis ea facilis, aliquid
+    qui, ipsam vitae dicta voluptas corporis sunt corrupti iure vero! Excepturi autem ullam id totam alias.
+    Reprehenderit maxime adipisci, error nostrum nisi impedit harum culpa quos? Maiores impedit odit commodi, iste
+    repellendus non eum eos doloribus accusantium fugit harum reiciendis, quis amet ea in maxime? Praesentium quas, cum
+    tempora maxime exercitationem ullam nesciunt expedita, facilis totam sapiente aspernatur quidem provident facere
+    voluptas recusandae corporis reprehenderit, ipsam doloremque! Veniam adipisci corrupti, quasi corporis dolorum
+    similique id quo vel fugit dolorem voluptatum odio doloremque vero dolores nulla perferendis aperiam, nesciunt sed
+    laborum fuga. Voluptatibus molestias officiis dolores iure debitis vero, non porro eos perferendis facilis facere?
+    Tempora rerum ut eligendi beatae molestias vero corrupti, repudiandae tenetur. Ducimus explicabo quos modi,
+    blanditiis numquam ipsa atque eum odio, animi debitis optio molestiae quo deleniti dolorem unde, maxime veniam
+    soluta ex. Libero architecto velit dicta at, molestias, exercitationem quam consequatur numquam id assumenda
+    corporis voluptas optio quos fuga provident consectetur nemo laudantium ipsum eveniet! Nemo, exercitationem commodi
+    laborum libero praesentium tenetur molestiae explicabo magnam vitae architecto similique.</p>
+  <h5>Sulyg abiem kraštais</h5>
+  <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus blanditiis rerum mollitia
+    deserunt magni ab sit qui. Voluptatem accusamus magni officiis fugit dolore harum blanditiis ea facilis, aliquid
+    qui, ipsam vitae dicta voluptas corporis sunt corrupti iure vero! Excepturi autem ullam id totam alias.
+    Reprehenderit maxime adipisci, error nostrum nisi impedit harum culpa quos? Maiores impedit odit commodi, iste
+    repellendus non eum eos doloribus accusantium fugit harum reiciendis, quis amet ea in maxime? Praesentium quas, cum
+    tempora maxime exercitationem ullam nesciunt expedita, facilis totam sapiente aspernatur quidem provident facere
+    voluptas recusandae corporis reprehenderit, ipsam doloremque! Veniam adipisci corrupti, quasi corporis dolorum
+    similique id quo vel fugit dolorem voluptatum odio doloremque vero dolores nulla perferendis aperiam, nesciunt sed
+    laborum fuga. Voluptatibus molestias officiis dolores iure debitis vero, non porro eos perferendis facilis facere?
+    Tempora rerum ut eligendi beatae molestias vero corrupti, repudiandae tenetur. Ducimus explicabo quos modi,
+    blanditiis numquam ipsa atque eum odio, animi debitis optio molestiae quo deleniti dolorem unde, maxime veniam
+    soluta ex. Libero architecto velit dicta at, molestias, exercitationem quam consequatur numquam id assumenda
+    corporis voluptas optio quos fuga provident consectetur nemo laudantium ipsum eveniet! Nemo, exercitationem commodi
+    laborum libero praesentium tenetur molestiae explicabo magnam vitae architecto similique.</p>
+  <h4>Šrifto spalvos</h4>
+  <p>Šrifto spalvas galime uždėti naudodami css (<i>stiliaus</i>) savybę: <b>color: ...jūsų spalva...</b></p>
+  <p class="text-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+  <p class="text-red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+  <p class="text-blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+  <p class="text-yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+  <p class="text-purple">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+  <p class="text-orange">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, illo.</p>
+</body>
+
+</html>

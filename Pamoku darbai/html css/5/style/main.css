@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+/* Display sekcijai */
+
+#display .container div {
+  background: lightgreen;
+  border: 5px double black;
+  margin: 5px 0;
+}
+
+#display span {
+  background: lightcoral;
+}
+
+#display .d-inline-block {
+  background: lightsalmon;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+/* Box model sekcijai */
+
+#box-model .box-model-example {
+  display: inline-block;
+  background: lightseagreen;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border: 2px solid #990000;
+  margin: 5px;
+}
+
+#box-model .square {
+  display: inline-block;
+  background: magenta;
+  width: 50px;
+  height: 50px;
+  border: 3px dashed cyan;
+}
+
+/* Nuotraukų sekcijai */
+
+.test-cover {
+  background-image: url(../img/test-cover.jpg);
+  background-size: cover;
+  background-position: right;
+  height: 400px;
+}
+
+/* Pozicionavimo sekcijai */
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-image: radial-gradient(#fff, #080, #030);
+}
+
+#position div.p-relative {
+  background-image: radial-gradient(#fff, #909, #303);
+}
+
+#position div.p-absolute {
+  background-image: radial-gradient(#fff, #990, #330);
+}
+
+.block-md {
+  width: 400px;
+  height: 200px;
+}
+
+.block-lg{
+  width: 600px;
+  height: 400px;
+}
+
+.bg-grey{
+  background: #555;
+}

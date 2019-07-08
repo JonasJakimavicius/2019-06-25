@@ -1,0 +1,39 @@
+.img-dog {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1rem;
+}
+
+.img-dog.float-right {
+  margin-left: 1rem;
+}
+
+.img-dog.float-left {
+  margin-right: 1rem;
+}
+
+#float p {
+  margin-top: 0;
+}
+
+.dog-1 {
+  background-image: url('../img/dog-1.jpg');
+}
+
+.dog-2 {
+  background-image: url('../img/dog-2.jpg');
+}
+
+.dog-3 {
+  background-image: url('../img/dog-3.jpg');
+}
+
+.dog-4 {
+  background-image: url('../img/dog-4.jpg');
+}
+
+#float .clearfix {
+  height: 1rem;
+}

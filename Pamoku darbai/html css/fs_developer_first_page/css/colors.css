@@ -1,0 +1,37 @@
+/* 
+#b2a491 40.4 %Malta (Brown)
+#484e46 32.0 %Battleship Grey (Grey)
+#7c7a6b 24.8 %Flint (Grey)
+#51814b 0.9 %Fern Green (Green)
+#ac4641 0.7 %Chestnut (Red)
+#eccf65 0.7 %Golden Sand (Yellow)
+#c69c69 0.5 %Fallow (Brown)
+*/
+
+.bg-primary {
+  background: #51814b;
+}
+
+.bg-secondary {
+  background: #c69c69;
+}
+
+.bg-danger {
+  background: #ac4641;
+}
+
+.bg-warning {
+  background: #eccf65;
+}
+
+.bg-dark {
+  background: #484e46;
+}
+
+.bg-light {
+  background: #b2a491;
+}
+
+.bg-info {
+  background: #7c7a6b;
+}
