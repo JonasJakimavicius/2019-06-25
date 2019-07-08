@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Praktika</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="stye.css">
+    <style type="text/css">
+        body {
+            /*viso puslapio fono spalva*/
+            background-color: grey;
+        }
+        .wrap {
+            /*bloko plotis*/
+            width: 40%;
+            /*nustato bloka ties viduriu kai yra nurodytas plotis*/
+            margin: auto;
+            /*nustato fono spalva balta*/
+            background-color: white;
+            /*sucentruoja teksta/elementus*/
+            text-align: center;
+            /*uzapvalina bloko kampus*/
+            border-radius: 7px;
+            /*atitraukia nuo apacios*/
+            padding-bottom: 1%;
+        }
+        #logo {
+            /*nuotraukos plotis*/
+            width: 200px;
+            /*nustato bloka ties viduriu kai yra nurodytas plotis*/
+            margin: auto;
+            /*inline elementa padaro blokiniu elementu*/
+            display: block;
+        }
+        /*klase apjungenti navigacijos linkus*/
+        .nav {
+            /*pakeiciama spalva i juoda*/
+            color: black;
+            /*nuimamas apatinis bruksnys*/
+            text-decoration: none;
+        }
+        /*navigacijos listo klase*/
+        .li {
+            /*nuimamim burbuliukai*/
+            list-style: none;
+            /*isdelioja elementus is kaires i desine i viena eilute*/
+            display: inline-block;
+            /*nustato atstuma tarp navigacijos elementu 10px ir nuo virsaus ir apacios 0px*/
+            margin: 0 10px;
+            /*padidina atstuma nuo musu meniu juostos iki bloko apacios*/
+            margin-bottom: 25px;
+        }
+        .apieMus {
+            /*maksimalus nuotraukos plotis esant bloke*/
+            max-width: 90%;
+            /*atstumas nuo bloko krastu iki nuotraukos*/
+            padding: 0 5%;
+        }
+        .p{
+            /*teksta istampo lygiai po visa bloka*/
+            text-align: justify;
+            /*atitraukia teksta nuo bloko krastu*/
+            padding: 0 5%;
+        }
+        .antraste {
+            /*nuo antrastes i virsu padaro atstuma 5%*/
+            padding-top: 5%; 
+        }
+        .card {
+            /*korteles plotis*/
+            width: 70%;
+            /*korteles sucentravimas*/
+            margin: auto;
+            /*korteles fonas*/
+            /*background-color: green;*/
+        }
+        .cardimg {
+            /*maksimalus nuotraukos plotis*/
+            max-width: 90%;
+            /*maksimalus nuotraukos aukstis*/
+            max-height: 250px;
+            /*nuotraukos atstumas nuo bloko krastu*/
+            padding: 5%;
+        }
+        .cardName {
+            margin: 0;
+            padding: 0;
+        }
+        .cardPrice {
+            margin: 0;
+            padding: 0 0 5% 0;
+        }
+        .sarasas {
+            text-align: left;
+        }
+        footer {
+            text-align: center;
+            margin: 1%;
+        }
+    </style>
+</head>
+<body>
+    <header class="wrap">
+        <img id="logo" src="http://www.3dgroup.eu/test/wp-content/uploads/2017/03/maxima.jpg">
+        <h1>Maxima Group Puslapis</h1>
+        <ul>
+            <li class="li">
+                <a class="nav" href="">Apie Mus</a>
+            </li>
+            <li class="li">
+                <a class="nav" href="">Produktai</a>
+            </li>
+            <li class="li">
+                <a class="nav" href="">Kontaktai</a>
+            </li>
+        </ul>
+    </header>
+    <section class="wrap">
+        <h1 class="antraste">Apie Mus</h1>
+        <img class="apieMus" src="http://www.maximagrupe.eu/uploads/images/2017/career/img-7.png">
+        <p class="p">Didžiausias Baltijos šalių mažmeninės prekybos tinklo istorija pradėta 1992 metais, Vilniuje atidarius kelias parduotuves su skirtingais pavadinimais. Šiandien prekybos tinklo MAXIMA kūrimosi istoriją galima drąsiai vadinti verslo sėkmės istorija, nes po Nepriklausomybės paskelbimo Baltijos šalyse nė viena įmonė nesulaukė tokios finansinės sėkmės, žinomumo visuomenėje ir pirkėjų įvertinimo.</p>
+        <p class="p">Mūsų siekis - kad MAXIMA taptų pirkėjams patogiausia parduotuve, todėl patogumui skiriame didžiausią dėmesį. Patogumas mums reiškia tai, kad klientas parduotuvėse randa prekes išdėstytas aiškiai, tvarkingai ir visur vienodai. Pirkėjui patogu, kai kainos ir kokybės santykis nekelia abejonių, todėl galima pasitikint viską pirkti vienoje vietoje.</p>
+    </section>
+    <section class="wrap">
+        <h1 class="antraste">Produktai</h1>
+        <div>
+            <h3>Mėsos Gaminiai</h3>
+            <div class="card">
+                <img class="cardimg" src="http://www.buceris.lt/wp-content/uploads/2016/01/Burger-patties-600x500.jpg">
+                <p class="cardName"><b>Jautienos patis</b></p>
+                <p class="cardPrice">Kaina: <b>€10</b></p>
+            </div>
+            <div class="card">
+                <img class="cardimg" src="https://diethood.com/wp-content/uploads/2018/11/Oven-Baked-Chicken-24.jpg">
+                <p class="cardName"><b>Vištienos Šlaunelė</b></p>
+                <p class="cardPrice">Kaina: <b>€15</b></p>
+            </div>
+        </div>
+        <div>
+            <h3>Pieno Produktai</h3>
+            <div class="card">
+                <img class="cardimg" src="http://pienozvaigzdes.lt/194-large_default/dvaro-pienas-25-riebumo-1l.jpg">
+                <p class="cardName"><b>Pienas</b></p>
+                <p class="cardPrice">Kaina: <b>€2</b></p>
+            </div>
+            <div class="card">
+                <img class="cardimg" src="http://pienozvaigzdes.lt/resized/705/736/img/p/5/6/56.jpg">
+                <p class="cardName"><b>Grudėta Varškė</b></p>
+                <p class="cardPrice">Kaina: <b>€3</b></p>
+            </div>
+        </div>
+    </section>
+    <section class="wrap">
+        <h1 class="antraste">Kontaktai</h1>
+        <ul>
+            <li class="sarasas">Maxima Group</li>
+            <li class="sarasas">+37060010000</li>
+            <li class="sarasas">mail@maxima.lt</li>
+        </ul>
+        <img class="apieMus" src="https://www.maxima.lt/custom_assets/appsimoka/images-new/animations/screen-3-content.jpg">
+    </section>
+    <footer>
+        Copyright © Maxima 2019. All rights reserved.
+    </footer>
+</body>
+</html>
