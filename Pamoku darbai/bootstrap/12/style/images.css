@@ -1,0 +1,21 @@
+.bg-prog-img {
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-prog-img-cpp {background-image: url(../img/cpp.jpg)}
+.bg-prog-img-dotnet {background-image: url(../img/dotnet.jpg)}
+.bg-prog-img-java {background-image: url(../img/java.jpg)}
+.bg-prog-img-python {background-image: url(../img/python.jpg)}
+.bg-prog-img-js {background-image: url(../img/js.jpg)}
+.bg-prog-img-swift {background-image: url(../img/swift.jpg)}
+
+h1 .color-blue{
+  color: blue;
+}
+
+.color-red{
+  color: red;
+}
