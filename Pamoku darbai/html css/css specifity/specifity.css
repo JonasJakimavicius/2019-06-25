@@ -1,0 +1,31 @@
+#main{
+  color: goldenrod !important;
+}
+
+.red {
+  color: green !important;
+}
+
+h3 {
+  color: black !important ;
+}
+
+#main{
+  color: blue;
+  border: solid 1px magenta;
+}
+
+html>body h3.green{
+  color: green
+}
+
+html>body>h3.red {
+  color: red;
+}
+
+h3 {
+  color: lightcoral ;
+  display: inline-block;
+  margin: 0 20px;
+}
+
