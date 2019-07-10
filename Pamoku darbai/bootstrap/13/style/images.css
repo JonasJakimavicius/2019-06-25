@@ -1,0 +1,78 @@
+/* Bendros nuorodos elemento savybės */
+.bg-prog-img {
+  /* Tam kad galėtume derinti turinį dinamiškai */
+  display: flex;
+  /* Turinio formavimas horizontaliai viduryje */
+  justify-content: center;
+  /* Turinio formavimas vertikaliai viduryje */
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* Tekto savybės */
+.link-text {
+  /* Uždedame position absolute, jog tekstas netrikdytų fono (pabandykite nuimti) */
+  position: absolute;
+  /* Padarome elementą permatomą, tam kad jis matytūsi tik užvedus pelytę ant tėvinio elemento */
+  opacity: 0;
+  /* Padidiname persiklojimo koeficientą, jog tekstas būtų ant fono */
+  z-index: 2;
+  transition: all .3s ease-in-out;
+}
+
+/* Fono savybės */
+/* :after tai paskutinis VAIKAS elemente su klase .bg-prog-img  */
+.bg-prog-img:after {
+  /* Suvienodiname aukštį su tėviniu elementu */
+  height: 100%;
+  /* Suvienodiname plotį su tėviniu elementu */
+  width: 100%;
+  /* Privalome parašyti šią savybę, būtų matomas pseudo elementų turinys */
+  content: '';
+  background-size: cover;
+  background-position: center;
+  transition: all .3s ease-in-out;
+}
+
+/* Teksto savybės, užvedus pelytę ant tėvo */
+.bg-prog-img:hover .link-text {
+  text-decoration: none;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  /* Padarome pilnai matomą 1 -> 100% */
+  opacity: 1;
+  color: #fff;
+}
+
+/* Fono savybės, užvedus pelytę ant tėvo */
+.bg-prog-img:hover:after {
+  /* Padarome foną 70% jo pradinio šviesumo (patamsiname) */
+  filter: brightness(0.70);
+}
+
+/* Fono nuotraukos */
+.bg-prog-img-cpp:after {
+  background-image: url(../img/cpp.jpg)
+}
+
+.bg-prog-img-dotnet:after {
+  background-image: url(../img/dotnet.jpg)
+}
+
+.bg-prog-img-java:after {
+  background-image: url(../img/java.jpg)
+}
+
+.bg-prog-img-python:after {
+  background-image: url(../img/python.jpg)
+}
+
+.bg-prog-img-js:after {
+  background-image: url(../img/js.jpg)
+}
+
+.bg-prog-img-php:after {
+  background-image: url(../img/php.jpg)
+}

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/dimensions.css">
+  <link rel="stylesheet" href="style/contact.css">
+  <link rel="stylesheet" href="style/images.css">
+  <link rel="stylesheet" href="style/custom.css">
+  <title>Grid Layout</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Codeacademy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbvar-content">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbvar-content">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#basics">Basics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cards">Cards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#images">Images</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="basics" class="container href-fix">
+    <h3 class="mt-3">Grid Layout</h3>
+    <div class="row">
+      <div class="col p-4">
+        <div class="row">
+          <div class="col-2 h-50px bg-primary"></div>
+        </div>
+        <div class="row">
+          <div class="col-4 h-50px bg-primary"></div>
+        </div>
+        <div class="row">
+          <div class="col-6 h-50px bg-primary"></div>
+        </div>
+        <div class="row">
+          <div class="col-8 h-50px bg-primary"></div>
+        </div>
+        <div class="row">
+          <div class="col-10 h-50px bg-primary"></div>
+        </div>
+        <div class="row">
+          <div class="col-12 h-50px bg-primary"></div>
+        </div>
+      </div>
+      <div class="col p-4">
+        <div class="row">
+          <div class="col h-100px bg-primary"></div>
+        </div>
+        <div class="row">
+          <div class="col h-100px bg-success"></div>
+          <div class="col h-100px bg-warning"></div>
+        </div>
+        <div class="row">
+          <div class="col h-100px bg-dark"></div>
+          <div class="col h-100px bg-info"></div>
+          <div class="col h-100px bg-danger"></div>
+        </div>
+      </div>
+      <div class="col p-4">
+        <div class="row">
+          <div class="col-12 h-50px bg-success"></div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-10 h-50px bg-success"></div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-8 h-50px bg-success"></div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-6 h-50px bg-success"></div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-4 h-50px bg-success"></div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-2 h-50px bg-success"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cards" class="container href-fix">
+    <h3 class="my-3">Kortelės</h3>
+
+    <!-- Kortelių pvz -->
+    <!-- Pavyzdys, kuriame atvaizduojame stulpelius rėžiuose:-->
+    <!-- 
+      xs, sm - 1 kortelė eilutėje
+      md, lg - 2 kortelės eilutėje
+      xl - 4 kortelės eilutėje
+      Nustatant stulpelių kiekį eilutėje reikia pradėti turinio kūrima nuo mažiausio ekrano. 
+      Stiliai aprašyti mažiausiam ekrano pločiui galioja visiems likusiems ekrano pločiams.
+      'xs' yra numatytasis ekrano plotis, nes galioja visiems pločiams.
+      Kuriant turinį skirtą 'xs' dydžiui nereikia papildomai nurodyti 'xs' intervalo. 
+      Kuo vėlesnis (platesnis) ekrano plotis tuo aukštesnį prioritetą jis turi lyginant su kitais ekrano pločiais.
+      --------------------------------------  xs < sm < md < lg < xl --------------------------------------------
+      Ekrano pločio intevalą įterpiame klasės pavadinimuose, pvz. :
+        a. col-sm-8 
+        b. col-lg-4
+        c. col-xl-3
+        d. col-xl-3
+      Skaičius gale taisyklės reiškia dvyliktųjų dalių kiekį:
+        a. col-3 -> 3/12 -> 1/4 eilutės pločio -> 25%
+        a. col-4 -> 4/12 -> 1/3 eilutės pločio -> 33.3(3)%
+        a. col-6 -> 6/12 -> 1/2 eilutės pločio -> 50%
+     -->
+
+    <!-- Paskelbiame eilutę, jog joje būtų galima naudoti Bootstrap Grid system -->
+    <div class="row">
+      <!-- Nustatome skirtingą stulpelio plotį prie skirtingų ekrano dydžių -->
+      <div class="col-12 col-md-6 col-xl-3">
+        <!-- .card - bootstrap kortelės klasė, kuri uždeda padding'us ir border'ius || .mb-4 - paraštė apačioje -->
+        <div class="card mb-4">
+          <!-- Viršutinė kortelės skiltis, kuri turi border'į apačioje-->
+          <div class="card-header">
+            <!-- Mūsų kurtas koretelės konteineris naudojamas animacijoms. mx-auto bloko lygiavimas viduryje -->
+            <div class="img-container mx-auto">
+              <div class="img img-zv"></div> <!-- Mūsų kurta klasė su foniniu paveikslėliu-->
+            </div>
+          </div>
+          <!-- Pagr. turiniui skirtas blokas -->
+          <div class="card-body">
+            <h5 class="card-title">Žilvinas Vidmantas</h5> <!-- Bootstrap kortelei pritaikyta antraštė -->
+            <!-- Bootstrap kortelei pritaikyta pablukinta antraštė -->
+            <h6 class="card-subtitle mb-2 text-muted">Full stack developer</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quia od it ea velit incidunt sapiente?
+            </p>
+            <!-- Nuorodos mygtukas-->
+            <a href="https://github.com/ZilvinasVidmantas" class="btn btn-block btn-primary ">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card mb-4">
+          <div class="card-header">
+            <div class="img-container mx-auto">
+              <div class="img img-vr"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Vytautas Rimeikis</h5>
+            <h6 class="card-subtitle mb-2 text-muted">PHP engineer</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quia od it ea velit incidunt sapiente?
+            </p>
+            <a href="https://github.com/ZilvinasVidmantas" class="btn btn-block btn-primary ">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card mb-4">
+          <div class="card-header">
+            <div class="img-container mx-auto">
+              <div class="img img-sv"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Saulius Virteka</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Vue.js developer</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quia od it ea velit incidunt sapiente?
+            </p>
+            <a href="https://github.com/ZilvinasVidmantas" class="btn btn-block btn-primary ">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-3">
+        <div class="card mb-4">
+          <div class="card-header">
+            <div class="img-container mx-auto">
+              <div class="img img-kj"></div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Karolina Januškaitė</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Data analyst, Big data</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, quia od it ea velit incidunt sapiente?
+            </p>
+            <a href="https://github.com/ZilvinasVidmantas" class="btn btn-block btn-primary ">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="images" class="href-fix">
+    <!-- Nuotraukų pavyzdys -->
+    <!-- Stulpelių klasių darinio paaiškinimas:
+      1. col-12 -> stulpelis užims visą eilutės plotį. 12/12 -> 1/1 -> 100% 
+      2. col-md-6 -> Nuo 'md' dydžio stulpelis užims || 6/12 -> 1/2 -> 50% || eilutės pločio
+      3. col-lg-4 -> nuo 'lg' dydžio stulepis užims || 4/12 -> 1/3 -> 33.3(3)% || eilutės pločio
+    Kadangi didesnių(platesnių) dydžių prioritetai yra aukštesni(xs < sm < md < lg < xl), tai mūsų atveju:
+      xs < md < lg
+      1. < 2. < 3.    
+    -->
+    <div class="row no-gutters">
+      <!-- no-gutters - tai bootstrap klasė kuri pašalina stulpeliams padding'ą iš kraštų  -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="https://devdocs.io/cpp/" target="blank" class="bg-prog-img bg-prog-img-cpp">
+          <!-- Čia galėtų būti :before pseudo elementas (prieš turinį - pats pirmas vaikas) -->
+          <span class="link-text">View C++ docs</span>
+          <!-- Šioje vietoje yra :after pseudo elementas (po turinio - pats paskutinis vaikas), t.y. fonas --> 
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="https://docs.microsoft.com/en-us/dotnet/" target="blank" class="bg-prog-img bg-prog-img-dotnet">
+          <!-- Čia galėtų būti :before pseudo elementas (prieš turinį - pats pirmas vaikas) -->
+          <span class="link-text">View .NET docs</span>
+          <!-- Šioje vietoje yra :after pseudo elementas (po turinio - pats paskutinis vaikas), t.y. fonas --> 
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="https://docs.oracle.com/en/java/" target="blank" class="bg-prog-img bg-prog-img-java">
+          <!-- Čia galėtų būti :before pseudo elementas (prieš turinį - pats pirmas vaikas) -->
+          <span class="link-text">View Java docs</span>
+          <!-- Šioje vietoje yra :after pseudo elementas (po turinio - pats paskutinis vaikas), t.y. fonas --> 
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="https://docs.python.org/3/" target="blank" class="bg-prog-img bg-prog-img-python">
+          <!-- Čia galėtų būti :before pseudo elementas (prieš turinį - pats pirmas vaikas) -->
+          <span class="link-text">View Python docs</span>
+          <!-- Šioje vietoje yra :after pseudo elementas (po turinio - pats paskutinis vaikas), t.y. fonas --> 
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="https://devdocs.io/javascript/" target="blank" class="bg-prog-img bg-prog-img-js">
+          <!-- Čia galėtų būti :before pseudo elementas (prieš turinį - pats pirmas vaikas) -->
+          <span class="link-text">View Javascript docs</span>
+          <!-- Šioje vietoje yra :after pseudo elementas (po turinio - pats paskutinis vaikas), t.y. fonas --> 
+        </a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <a href="https://www.php.net/docs.php" target="blank" class="bg-prog-img bg-prog-img-php">
+          <!-- Čia galėtų būti :before pseudo elementas (prieš turinį - pats pirmas vaikas) -->
+          <span class="link-text">View PHP docs</span>
+          <!-- Šioje vietoje yra :after pseudo elementas (po turinio - pats paskutinis vaikas), t.y. fonas --> 
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

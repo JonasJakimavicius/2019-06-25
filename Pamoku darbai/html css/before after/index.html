@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Before and After</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .container {
+      background: #eee;
+      width: 960px;
+      padding: 0 15px;
+      margin: 0 auto;
+    }
+
+    .price {
+      font-size: 1.5rem;
+    }
+
+    .price:after {
+      content: ' eur';
+      background: lightblue;
+    }
+
+    .dollars:before {
+      content: 'Dollars ';
+      background: lightgray;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="price">
+      20
+    </div>
+    <div class="dollars">
+      20
+    </div>
+  </div>
+</body>
+
+</html>
