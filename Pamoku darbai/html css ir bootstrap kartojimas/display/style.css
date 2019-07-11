@@ -1,0 +1,43 @@
+.bg-blue {
+  background: blue;
+}
+
+.bg-red {
+  background: red;
+}
+
+.h-25p {
+  height: 25px;
+}
+
+.h-50p {
+  height: 50px;
+}
+
+.h-75p {
+  height: 75px;
+}
+
+.w-25p {
+  width: 25px;
+}
+
+.w-50p {
+  width: 50px;
+}
+
+.w-75p {
+  width: 75px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-flex {
+  display: flex;
+}

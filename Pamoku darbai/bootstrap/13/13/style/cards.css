@@ -1,0 +1,55 @@
+#cards .container {
+  position: relative;
+  /* Kortelių sekcijos turinį pakeliame per nustatytą dydį: top */
+  top: -267px; 
+}
+
+#cards {
+  /* Kadangi kiti elementai 'position: realative' mato kaip 'static', reikia kompensuoti 
+    užsilikusį koretelių sekcijos turinio foną naudojant pritraukimą su neigiamu margin'u.
+  */
+  margin-bottom: -267px;
+}
+
+.img-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  border-radius: 100%;
+}
+
+.img-container:hover {
+  border: 2px solid #555;
+}
+
+.img-container:hover .img {
+  height: 220px;
+  width: 220px;
+  margin: -10px 0 0 -10px;
+}
+
+.img {
+  transition: all .3s ease-in-out;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-zv {
+  background-image: url(../img/zv.jpg);
+  filter: grayscale(100%);
+}
+
+.img-kj {
+  background-image: url(../img/kj.jpg);
+}
+
+.img-vr {
+  background-image: url(../img/vr.jpg);
+}
+
+.img-sv {
+  background-image: url(../img/sv.jpg);
+}

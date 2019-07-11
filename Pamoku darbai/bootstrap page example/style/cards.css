@@ -1,3 +1,16 @@
+.card-section .container {
+  position: relative;
+  /* Kortelių sekcijos turinį pakeliame per nustatytą dydį: top */
+  top: -167px; 
+}
+
+.card-section {
+  /* Kadangi kiti elementai 'position: realative' mato kaip 'static', reikia kompensuoti 
+    užsilikusį koretelių sekcijos turinio foną naudojant pritraukimą su neigiamu margin'u.
+  */
+  margin-bottom: -167px;
+}
+
 .img-container {
   width: 200px;
   height: 200px;
