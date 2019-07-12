@@ -1,0 +1,67 @@
+/* Šita savybe pašalins jūsų teksto tarpelius */
+
+.font-size-0 {
+  font-size: 0;
+}
+
+/* Margins */
+
+.m-auto {
+  margin: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.my-10px {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mr-10px {
+  margin-right: 10px;
+}
+
+/* Paddings */
+
+.p-10px {
+  padding: 10px;
+}
+
+/* Backgrounds */
+
+.bg-green {
+  background-color: #070;
+}
+
+.bg-red {
+  background-color: #700;
+}
+
+/* Displays */
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+/* Sizes */
+
+.w-290px {
+  width: 290px;
+}
+
+.h-200px {
+  height: 200px;
+}
+
+/* figures */
+
+.square50x50 {
+  height: 50px;
+  width: 50px;
+}

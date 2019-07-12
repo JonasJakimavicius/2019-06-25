@@ -1,0 +1,31 @@
+@media (min-width: 576px) {
+  .bg-prog-img {
+    height: 350px;
+  }
+
+  footer {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .bg-prog-img {
+    height: 250px;
+  }
+
+  footer {
+    height: 60vh;
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    height: 45vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg-prog-img {
+    height: 300px;
+  }
+}

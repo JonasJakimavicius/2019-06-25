@@ -13,3 +13,7 @@ body {
   margin-top: -56px;
 }
 
+.carousel-item{
+  transition: all .3s ease-in-out;
+}
+

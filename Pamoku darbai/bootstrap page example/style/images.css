@@ -10,6 +10,7 @@
   height: 250px;
   font-weight: bold;
   font-size: 2rem;
+  overflow: hidden;
 }
 
 /* Tekto savybės */
@@ -40,8 +41,8 @@
 
 /* Teksto savybės, užvedus pelytę ant tėvo */
 .bg-prog-img:hover .link-text {
-  /* Padarome pilnai matomą 1 -> 100% */
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  /* Padarome pilnai matomą 1 -> 100% */
   opacity: 1;
   color: #fff;
 }
@@ -50,6 +51,7 @@
 .bg-prog-img:hover:after {
   /* Padarome foną 70% jo pradinio šviesumo (patamsiname) */
   filter: brightness(0.70);
+  transform: scale(1.1);
 }
 
 /* Fono nuotraukos */
