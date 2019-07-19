@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap grid system</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center">Bootstrap grid system</h1>
+    <a href="https://getbootstrap.com/docs/4.0/layout/grid/">Dokumentacija</a>
+    <p class="lead">Stulpelių aukščiaims sukurkite savo klases ir jas pritaikykite. Fonams naudokite 8 bootstrap fono
+      spalvas</p>
+    <h3>Užduotys su panaudoujant .row, .col ir .col-{1-12} variacijas</h3>
+    <ol>
+      <li>Atvaizduokite 4 vienodo ploto stulpelius eilutėje.</li>
+      <li>Atvaizduokite 3 vienodo ploto stulpelius eilutėje.</li>
+      <li>Atvaizduokite 2 stulpelius eilutėje santykiu 1:2.</li>
+      <li>Atvaizduokite 3 stulpelius eilutėje santykiu 2:1:1.</li>
+      <li>Atvaizduokite 4 stulpelius eilutėje santykiu 3:1:1:1.</li>
+      <li>Atvaizduokite 4 stulpelius. Paskutiniam stulpeliui išskirkite 2/3 ploto o likusiems išdalinkite plotą po
+        lygiai.</li>
+      <li>Atvaizduokite 3 eilutes po 2 stulpelius, kurie užimtų po pusę eilutės pločio.</li>
+      <li>Atvaizduokite 9 lygius stulpelius 3 eilutėse.</li>
+      <li>Atvaizduokite 9 stulpelius 3 eilutėse, kur pirmasis eilutės stulpelis užimtų 2/3 ploto.</li>
+    </ol>
+
+    <h3>Grid system responsive užduotys: .col-{1-size-12}</h3>
+    <ol>
+      <li>Atvaizduokite 2 stulpelius eilutėje. Kurie ant sm ir xs ekranų užims po atskirą eilutę.</li>
+      <li>Atvaizduokite 3 stulpelius eilutėje. Kurie ant sm ir xs ekranų užims po atskirą eilutę.</li>
+      <li>Atvaizduokite 3 stulpelius eilutėje. Kur ant sm ir xs ekranų pirmasis užims visą eilutę, o likę pasidalis
+        antrąją pusiau.</li>
+      <li>Atvaizduokite 3 stulpelius eilutėje. Kur ant sm ir xs ekranų paskutinis stulpelis užims visą eilutę, o likę
+        pasidalis
+        antrąją santykiu 1:2 atitinkamai.</li>
+      <li>Atvaizduokite 12 stulpelių kurie užims skirtingus eilutės pločius prie ekranų dydžių atitinkamai:
+        <ol>
+          <li>Nuo xs iki sm - stulpelis per visą eilutę</li>
+          <li>Nuo md - 2 sulpeliai eilutėje</li>
+          <li>Nuo lg - 3 stulpeliai eilutėje</li>
+          <li>Nuo xl - 4 stulpeliai eilutėje</li>
+        </ol>
+      </li>
+    </ol>
+
+    <h3>Grid system kompleksinės užduotys kuriant eilutes stulpeliuose: .row>.col-{1-12}+col{1-12}>.row.col-{1-12}*x
+    </h3>
+    <ol>
+      <li>Atvaizduokite pusės pločio stulpelį-bloką kairėje pusėje, o dešinėje 2 eilutes po pusę stulpelio-bloko aukčio
+      </li>
+      <li>Atvaizduokite pusės pločio stulpelį-bloką dešinėje pusėje, o kairėje 3 eilutes po trečdalį stulpelio-bloko
+        aukčio
+      </li>
+      <li>Atvaizduokite pusės pločio stulpelį-bloką kairėje pusėje, o dešinėje 2 eilutes po pusę stulpelio-bloko aukčio,
+        kuriose būtų po 3 stulpelius</li>
+      <li>Atvaizduokite pusės pločio stulpelį-bloką dešinėje pusėje, o kairėje 3 eilutes po trečdalį stulpelio-bloko
+        aukčio,
+        kuriose būtų po 2 stulpelius</li>
+    </ol>
+
+
+
+    <h3>Grid system kompleksinės užduotys</h3>
+    <h6>1. Atvaizduokite kaip pateikta paveikslėliuose, ant skirtingų ekrano dydžių</h6>
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <h5 class="text-center my-3">Iki MD</h5>
+        <img src="sm.png" alt="" width="100%">
+      </div>
+      <div class="col-12 col-lg-4">
+        <h5 class="text-center my-3">Nuo MD</h5>
+        <img src="md.png" alt="" width="100%">
+      </div>
+      <div class="col-12 col-lg-4">
+        <h5 class="text-center my-3">Nuo XL</h5>
+        <img src="xl.png" alt="" width="100%">
+      </div>
+    </div>
+    <h6>2. Panaudodami grid system atvaizduokite (be tarpų)</h6>
+    <img src="https://miro.medium.com/max/2492/0*kOe7LHCs0WBFQXxA.png" height="200px">
+    <h6>3. Panaudodami grid system atvaizduokite (su tarpais)</h6>
+    <img src="https://miro.medium.com/max/2492/0*kOe7LHCs0WBFQXxA.png" height="200px">
+
+    <div class="d-flex">
+      <div class="grid-block">
+        <div class="row no-gutters h-200px mb-3">
+          <div class="col">
+            <div class="h-100 bg-primary mr-3"></div>
+          </div>
+          <div class="col">
+            <div class="h-100 bg-primary mr-3"></div>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col">
+            <div class="h-100 bg-primary mr-3"></div>
+          </div>
+          <div class="col">
+            <div class="d-flex flex-column no-gutters h-250px mr-3">
+              <div class="h-150px bg-primary mb-3"></div>
+              <div class="bg-primary flex-fill"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="float-block">
+        <div class="bg-primary float-left w-1-5 h-366px"></div>
+        <div class="bg-primary float-right w-2-5 h-84px"></div>
+        <div class="bg-primary float-left w-1-5 h-266px mt-3 ml-3"></div>
+        <div class="bg-primary float-right w-1-5 h-366px mt-3 ml-3"></div>
+        <div class="bg-primary float-left w-2-5 h-84px mt-3"></div>
+      </div>
+    </div>
+    <div class="my-5"></div>
+
+
+
+
+
+
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

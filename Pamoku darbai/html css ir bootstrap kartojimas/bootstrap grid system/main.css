@@ -1,0 +1,53 @@
+.h-50px {
+  height: 50px;
+}
+
+.h-84px {
+  height: 84px;
+}
+
+.h-100px {
+  height: 100px;
+}
+
+.h-125px {
+  height: 125px;
+}
+
+.h-150px {
+  height: 150px;
+}
+
+.h-200px {
+  height: 200px;
+}
+
+.h-250px {
+  height: 250px;
+}
+
+.h-366px {
+  height: 366px;
+}
+
+
+.h-266px {
+  height: 266px;
+}
+
+.grid-block {
+  width: calc(2 * (100% - 4rem) / 5 + 2rem );
+}
+
+.float-block {
+  width: calc(3 * (100% - 4rem) / 5 + 2rem);
+  float: left;
+}
+
+.w-1-5 {
+  width: calc( (100% - 2rem) / 3);
+}
+
+.w-2-5 {
+  width: calc( 2 * (100% - 2rem) / 3 + 1rem);
+}
