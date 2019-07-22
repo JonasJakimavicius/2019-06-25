@@ -1,5 +1,5 @@
 ﻿ ----------------------Užduotys--------------------------
- 1. Persirašykite skaičių
+ 1. Persirašykite skaičių masyvą: const numberArray = [0, 0, 1, -2, -5, -8, -7, -9, 5, 1, 2, 3, 6, 44, 5];
  2. Sekančias užduotis atlikti su naujais masyvais(kopijomis)
  3. Padauginti masyvo narius iš 2
  4. Pakelti masyvo narius kvadratu
