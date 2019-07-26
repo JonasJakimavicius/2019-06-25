@@ -98,5 +98,6 @@ console.log(people[2].getMood() + ' <-> ' + people[3].getMood());
 // 4. Sukurkite metodą kuris keliautų į aukšą x
 // 5. Uždėkite apribojimą, kad durys atsidarinėtų liftui esant konkrečiam aukšte
 // 6. Uždėkite apribojimą, jog duris atidarinėtų tik tada, jeigu liftas nejuda
+// 7. Perskaitykite ir įsigilinkite: https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout
 
 
