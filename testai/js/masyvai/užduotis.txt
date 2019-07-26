@@ -1,0 +1,23 @@
+Pirma perskaitykite klausimus, tik tada juos atsakykite.
+ANT LAPO
+1. Numbraižykite skaičių masyvą iš šešių elementų // 1
+2. Pažymėkite elementus // 1
+3. Pažymėkite masyvo indeksus // 1
+4. Parašykite kaip įrašyti reikšmę -11 į masyvo trečia elementą // 1
+5. Parašykite kaip padauginti masyvo antrą elementą iš 2 ir atspausdinti // 1
+6. Parašykite kaip gauti vusų elementų skaičių // 1
+7. Parašykite ir pavyzdiniam masyve pažymėkite ką darys komanda 'numArray.push(-111, -3)'. Atskiras piešinukas. // 1
+8. Parašykite ir pavyzdiniam masyve pažymėkite ką darys komanda 'let x = numArray.slice(1)'. Atskiras piešinukas. // 1
+9. Parašykite ir pavyzdiniam masyve pažymėkite ką darys komanda 'numArray.splice(1, 0)'. Atskiras piešinukas. // 1
+10. Parašykite ir pavyzdiniam masyve pažymėkite ką darys komanda 'numArray.splice(1, 2 , 7 , 8, 9)'. Atskiras piešinukas. // 1
+
+KOMPIUTERIU - užduotis atlikite gale kartojimo užduočių failo.
+1. Sukurkite 'people' masyvą(6 žmonės) sudarytą iš žmones atitinkančių obejktų; Žmogaus savybės: name, surname, age. // 1
+2. Pridėkite naują žmogų į masyvo galą. // 1
+3. Pridėkite 3 žmones į masyvo pradžią. // 1
+4. Padarykite masyvo kopiją. // 1
+5. Padalinkite žmones į 2 komandas (nauji masyvai po pusę masyvo žmonių), taip kad masyvo kopijoje( 4.) neliktų žmonių. // 2
+6. Iš kiekvienos komandos išimkite 2 žmonės iš masyvo pradžios.  // 2
+7. Sujunkite žmonės į bendrą masyvą  // 2
+
+** Papildomas balas už dinaminį užduočių atlikimą (Veikia teisingai pakeitus žmonių skaičių)

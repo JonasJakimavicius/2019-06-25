@@ -1,0 +1,21 @@
+Pirma perskaitykite klausimus, tik tada juos atsakykite.
+ANT LAPO
+0. Nupieškite ant lapo objekto pavyzdį(struktūrą)
+1. Kas yra objektas?
+2. Kas yra objekto savybė? Pažymėti brėžinyje.
+3. Kas yra obejkto savybės raktas? Pažymėti brėžinyje.
+4. Kas yra objekto savybės reikšmė? Pažymėti brėžinyje.
+5. Kaip pakeisti obejekto savybės reikšmę? Pateikti pavyzdį.
+6. Kaip panaudoti objekto savybės reikšmę? Pateikti pavyzdį.
+
+KOMPIUTERIU
+7.
+Sudarykite namo struktūrą, naudojant javascript:
+namo savybės:
+  adresas, STRING
+  kvadratūra, STRING
+  kambarių skaičius, NUMBER
+  gyventojai (3) ARRAY
+    vardas, STRING
+    pavardė, STRING
+    amžius, NUMBER
