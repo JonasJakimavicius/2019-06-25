@@ -1,0 +1,21 @@
+Su for it while ciklais:
+    parašykite kodą, kuris atspausdintų nuo 3 iki 10
+    pažymėkite kur yra salyga
+    pažymėkite darbinio kintamojo sukūrimą
+    pažymėkite darbinio kintamojo artėjimą link baigtinės salygos
+
+Su Foreach ciklu:
+    Sukurti skaičių masyvą
+    Atspausdinti skaičių masyvą, rakto => reikšmės poromis, pvz.:
+        [0] => -7
+        [1] => 11
+        .........
+        [n-1] => el(n)
+
+-------------------------- Kompiuteriu ---------------------------
+1. Susukurti skaičių masyvą 
+Kompiuteriu atlikti užduotis su visais trimis ciklais(for, foreach, while):
+    2. Atsapausdinkite visus masyvo elementus ir jų raktus eilutėmis
+    3. Atspausdinkite visų masyvo elementų sumą
+    4. Atspausdinkite visų masyvo elementų vidurkį
+    
